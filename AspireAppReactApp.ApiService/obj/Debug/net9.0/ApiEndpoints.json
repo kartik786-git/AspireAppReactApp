@@ -1,0 +1,233 @@
+[
+  {
+    "ContainingType": "TodoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTodoEndpoints\u003Eb__0_0",
+    "RelativePath": "Todo/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[AspireAppReactApp.ApiService.Todo, AspireAppReactApp.ApiService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Todo"
+    ],
+    "EndpointName": "GetAllTodos"
+  },
+  {
+    "ContainingType": "TodoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTodoEndpoints\u003Eb__0_3",
+    "RelativePath": "Todo/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "todo",
+        "Type": "AspireAppReactApp.ApiService.Todo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AspireAppReactApp.ApiService.Todo",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Todo"
+    ],
+    "EndpointName": "CreateTodo"
+  },
+  {
+    "ContainingType": "TodoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTodoEndpoints\u003Eb__0_1",
+    "RelativePath": "Todo/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AspireAppReactApp.ApiService.Todo",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Todo"
+    ],
+    "EndpointName": "GetTodoById"
+  },
+  {
+    "ContainingType": "TodoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTodoEndpoints\u003Eb__0_2",
+    "RelativePath": "Todo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "todo",
+        "Type": "AspireAppReactApp.ApiService.Todo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Todo"
+    ],
+    "EndpointName": "UpdateTodo"
+  },
+  {
+    "ContainingType": "TodoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTodoEndpoints\u003Eb__0_4",
+    "RelativePath": "Todo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Todo"
+    ],
+    "EndpointName": "DeleteTodo"
+  },
+  {
+    "ContainingType": "TodoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTodoEndpoints\u003Eb__0_6",
+    "RelativePath": "Todo/move-down/{id:int}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Todo"
+    ],
+    "EndpointName": "MoveTaskDown"
+  },
+  {
+    "ContainingType": "TodoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTodoEndpoints\u003Eb__0_5",
+    "RelativePath": "Todo/move-up/{id:int}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Todo"
+    ],
+    "EndpointName": "MoveTaskUp"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0",
+    "RelativePath": "weatherforecast",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WeatherForecast[]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

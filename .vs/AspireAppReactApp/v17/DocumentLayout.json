@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\AspireAppReactApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.web\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|solutionrelative:aspireappreactapp.web\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|solutionrelative:aspireappreactapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F4CFB2-8C8C-4FCF-9E60-F35F5138BC38}|AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F4CFB2-8C8C-4FCF-9E60-F35F5138BC38}|AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj|solutionrelative:aspireappreactapp.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.web\\todoapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|solutionrelative:aspireappreactapp.web\\todoapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.web\\weatherapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|solutionrelative:aspireappreactapp.web\\weatherapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.web\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B489183F-F378-7E3A-1145-83DB59DD2C01}|AspireAppReactApp.Web\\AspireAppReactApp.Web.csproj|solutionrelative:aspireappreactapp.web\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|solutionrelative:aspireappreactapp.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F4CFB2-8C8C-4FCF-9E60-F35F5138BC38}|AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.apphost\\aspireappreactapp.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16F4CFB2-8C8C-4FCF-9E60-F35F5138BC38}|AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj|solutionrelative:aspireappreactapp.apphost\\aspireappreactapp.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.apiservice\\todoendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|solutionrelative:aspireappreactapp.apiservice\\todoendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.apiservice\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|solutionrelative:aspireappreactapp.apiservice\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.apiservice\\aspireappreactapp.apiservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|solutionrelative:aspireappreactapp.apiservice\\aspireappreactapp.apiservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|solutionrelative:aspireappreactapp.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|d:\\project\\aspireappreactapp\\aspireappreactapp.apiservice\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DAAB8D-C263-18C3-C109-733220D15AE8}|AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.csproj|solutionrelative:aspireappreactapp.apiservice\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "AspireAppReactApp.Web\\Program.cs",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\Program.cs",
+              "RelativeToolTip": "AspireAppReactApp.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:30:40.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoApiClient.cs",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\TodoApiClient.cs",
+              "RelativeDocumentMoniker": "AspireAppReactApp.Web\\TodoApiClient.cs",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\TodoApiClient.cs",
+              "RelativeToolTip": "AspireAppReactApp.Web\\TodoApiClient.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwCoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:29:53.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherApiClient.cs",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\WeatherApiClient.cs",
+              "RelativeDocumentMoniker": "AspireAppReactApp.Web\\WeatherApiClient.cs",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\WeatherApiClient.cs",
+              "RelativeToolTip": "AspireAppReactApp.Web\\WeatherApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:29:32.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoDto.cs",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\TodoDto.cs",
+              "RelativeDocumentMoniker": "AspireAppReactApp.Web\\TodoDto.cs",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\TodoDto.cs",
+              "RelativeToolTip": "AspireAppReactApp.Web\\TodoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:29:05.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Todo.razor",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\Components\\Pages\\Todo.razor",
+              "RelativeDocumentMoniker": "AspireAppReactApp.Web\\Components\\Pages\\Todo.razor",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\Components\\Pages\\Todo.razor",
+              "RelativeToolTip": "AspireAppReactApp.Web\\Components\\Pages\\Todo.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T05:28:20.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AspireAppReactApp.AppHost",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj",
+              "RelativeDocumentMoniker": "AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj",
+              "RelativeToolTip": "AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-22T05:21:44.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TodoDbContext.cs",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\TodoDbContext.cs",
+              "RelativeDocumentMoniker": "AspireAppReactApp.ApiService\\TodoDbContext.cs",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\TodoDbContext.cs",
+              "RelativeToolTip": "AspireAppReactApp.ApiService\\TodoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T04:53:29.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AspireAppReactApp.ApiService.http",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.http",
+              "RelativeDocumentMoniker": "AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.http",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.http",
+              "RelativeToolTip": "AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-22T04:51:48.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TodoEndpoints.cs",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\TodoEndpoints.cs",
+              "RelativeDocumentMoniker": "AspireAppReactApp.ApiService\\TodoEndpoints.cs",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\TodoEndpoints.cs",
+              "RelativeToolTip": "AspireAppReactApp.ApiService\\TodoEndpoints.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwEcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T04:42:45.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\appsettings.json",
+              "RelativeDocumentMoniker": "AspireAppReactApp.ApiService\\appsettings.json",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\appsettings.json",
+              "RelativeToolTip": "AspireAppReactApp.ApiService\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-22T04:41:24.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\Todo.cs",
+              "RelativeDocumentMoniker": "AspireAppReactApp.ApiService\\Todo.cs",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\Todo.cs",
+              "RelativeToolTip": "AspireAppReactApp.ApiService\\Todo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T04:30:51.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\Program.cs",
+              "RelativeDocumentMoniker": "AspireAppReactApp.ApiService\\Program.cs",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ApiService\\Program.cs",
+              "RelativeToolTip": "AspireAppReactApp.ApiService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T04:30:03.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.AppHost\\AppHost.cs",
+              "RelativeDocumentMoniker": "AspireAppReactApp.AppHost\\AppHost.cs",
+              "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.AppHost\\AppHost.cs",
+              "RelativeToolTip": "AspireAppReactApp.AppHost\\AppHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T04:26:45.628Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

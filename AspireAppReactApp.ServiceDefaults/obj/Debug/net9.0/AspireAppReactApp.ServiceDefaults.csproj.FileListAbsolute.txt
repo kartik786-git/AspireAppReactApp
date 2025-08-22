@@ -1,0 +1,12 @@
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\bin\Debug\net9.0\AspireAppReactApp.ServiceDefaults.deps.json
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\bin\Debug\net9.0\AspireAppReactApp.ServiceDefaults.dll
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\bin\Debug\net9.0\AspireAppReactApp.ServiceDefaults.pdb
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\obj\Debug\net9.0\AspireAppReactApp.ServiceDefaults.csproj.AssemblyReference.cache
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\obj\Debug\net9.0\AspireAppReactApp.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\obj\Debug\net9.0\AspireAppReactApp.ServiceDefaults.AssemblyInfoInputs.cache
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\obj\Debug\net9.0\AspireAppReactApp.ServiceDefaults.AssemblyInfo.cs
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\obj\Debug\net9.0\AspireAppReactApp.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\obj\Debug\net9.0\AspireAppReactApp.ServiceDefaults.dll
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\obj\Debug\net9.0\refint\AspireAppReactApp.ServiceDefaults.dll
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\obj\Debug\net9.0\AspireAppReactApp.ServiceDefaults.pdb
+D:\Project\AspireAppReactApp\AspireAppReactApp.ServiceDefaults\obj\Debug\net9.0\ref\AspireAppReactApp.ServiceDefaults.dll

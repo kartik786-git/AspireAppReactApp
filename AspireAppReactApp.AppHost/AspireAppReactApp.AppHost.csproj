@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.4.1" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>e86407cb-800b-40ac-a920-3e50fa29bc06</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspireAppReactApp.ApiService\AspireAppReactApp.ApiService.csproj" />
+    <ProjectReference Include="..\AspireAppReactApp.Web\AspireAppReactApp.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.1" />
+    <PackageReference Include="Aspire.Hosting.NodeJs" Version="9.4.1" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.NodeJS.Extensions" Version="9.7.1-beta.348" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.Sqlite" Version="9.7.1-beta.348" />
+  </ItemGroup>
+
+</Project>

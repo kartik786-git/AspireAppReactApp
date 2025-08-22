@@ -1,0 +1,186 @@
+﻿@page "/todo"
+
+@using System.Linq
+@rendermode InteractiveServer
+@inject TodoApiClient TodoApi
+
+<PageTitle>Todo List</PageTitle>
+
+<style>
+.todo-card {
+    max-width: 500px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 2rem;
+}
+.todo-header {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #2d3748;
+}
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+.todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0.5rem;
+    border-bottom: 1px solid #eee;
+    transition: background 0.2s;
+}
+.todo-list li:last-child {
+    border-bottom: none;
+}
+.todo-list li:hover {
+    background: #f7fafc;
+}
+.todo-title {
+    flex: 1;
+    margin-left: 0.75rem;
+    font-size: 1.1rem;
+    color: #2d3748;
+    text-decoration: none;
+}
+.todo-complete {
+    accent-color: #38a169;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.todo-actions button {
+    background: #edf2f7;
+    border: none;
+    color: #4a5568;
+    margin-left: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s, color 0.2s;
+}
+.todo-actions button:hover {
+    background: #38a169;
+    color: #fff;
+}
+.add-todo-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.add-todo-input {
+    flex: 1;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #cbd5e0;
+    font-size: 1rem;
+}
+.add-todo-btn {
+    background: linear-gradient(90deg,#38a169,#48bb78);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.add-todo-btn:hover {
+    background: linear-gradient(90deg,#48bb78,#38a169);
+}
+</style>
+
+<div class="todo-card">
+    <div class="todo-header">Todo List</div>
+
+    @if (todos == null)
+    {
+        <p style="text-align:center;color:#888;">Loading...</p>
+    }
+    else
+    {
+        <ul class="todo-list">
+            @foreach (var todo in todos)
+            {
+                <li>
+                    <input class="todo-complete" type="checkbox" checked="@todo.IsComplete" @onchange="() => ToggleComplete(todo)" />
+                    <span class="todo-title" style="@(todo.IsComplete ? "text-decoration:line-through;color:#a0aec0;" : "")">@todo.Title</span>
+                    <span class="todo-actions">
+                        <button title="Move Up" @onclick="() => MoveUp(todo)">↑</button>
+                        <button title="Move Down" @onclick="() => MoveDown(todo)">↓</button>
+                        <button title="Delete" @onclick="() => DeleteTodo(todo)">🗑️</button>
+                    </span>
+                </li>
+            }
+        </ul>
+        <form class="add-todo-form" @onsubmit="AddTodo">
+            <input class="add-todo-input" @bind="newTitle" placeholder="New todo title" required />
+            <button class="add-todo-btn" type="submit">Add</button>
+        </form>
+    }
+</div>
+
+@code {
+    List<TodoDto>? todos;
+    string newTitle = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadTodos();
+    }
+
+    async Task LoadTodos()
+    {
+        todos = await TodoApi.GetTodosAsync();
+    }
+
+    async Task AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTitle))
+        {
+            var todo = new TodoDto { Title = newTitle };
+            var created = await TodoApi.AddTodoAsync(todo);
+            if (created != null)
+            {
+                todos?.Add(created);
+                newTitle = string.Empty;
+            }
+        }
+    }
+
+    async Task DeleteTodo(TodoDto todo)
+    {
+        if (await TodoApi.DeleteTodoAsync(todo.Id))
+        {
+            todos?.Remove(todo);
+        }
+    }
+
+    async Task ToggleComplete(TodoDto todo)
+    {
+        todo.IsComplete = !todo.IsComplete;
+        await TodoApi.UpdateTodoAsync(todo.Id, todo);
+    }
+
+    async Task MoveUp(TodoDto todo)
+    {
+        if (await TodoApi.MoveTaskUpAsync(todo.Id))
+        {
+            await LoadTodos();
+        }
+    }
+
+    async Task MoveDown(TodoDto todo)
+    {
+        if (await TodoApi.MoveTaskDownAsync(todo.Id))
+        {
+            await LoadTodos();
+        }
+    }
+}
