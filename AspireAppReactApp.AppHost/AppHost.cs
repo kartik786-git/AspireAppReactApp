@@ -13,6 +13,14 @@ builder.AddViteApp(name: "todo-frontend", workingDirectory: "../todo-frontend")
     .WaitFor(apiService)
     .WithNpmPackageInstallation();
 
+builder.AddNpmApp(name: "todo-frontend-angular", workingDirectory: "../todo-angualr-app")
+.WithReference(apiService)
+.WaitFor(apiService)
+.WithHttpEndpoint(env: "PORT")
+// optional
+//.PublishAsDockerFile()
+    .WithNpmPackageInstallation();
+
 builder.AddProject<Projects.AspireAppReactApp_Web>("webfrontend")
     .WithExternalHttpEndpoints()
     .WithHttpHealthCheck("/health")

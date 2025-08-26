@@ -92,10 +92,10 @@ D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\staticwebass
 D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\staticwebassets.development.json
 D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\AspireAp.AC4EE7C6.Up2Date
 D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\AspireAppReactApp.Web.dll
 D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\refint\AspireAppReactApp.Web.dll
 D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\AspireAppReactApp.Web.pdb
 D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\AspireAppReactApp.Web.genruntimeconfig.cache
 D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\ref\AspireAppReactApp.Web.dll
+D:\Project\AspireAppReactApp\AspireAppReactApp.Web\obj\Debug\net9.0\AspireAppReactApp.Web.sourcelink.json

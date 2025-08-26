@@ -74,8 +74,7 @@
               "RelativeToolTip": "AspireAppReactApp.Web\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T05:30:40.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T05:30:40.815Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "AspireAppReactApp.Web\\TodoApiClient.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwCoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T05:29:53.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T05:29:53.914Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "AspireAppReactApp.Web\\WeatherApiClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T05:29:32.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T05:29:32.846Z"
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "AspireAppReactApp.Web\\TodoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T05:29:05.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T05:29:05.641Z"
             },
             {
               "$type": "Document",
@@ -124,7 +120,7 @@
               "RelativeDocumentMoniker": "AspireAppReactApp.Web\\Components\\Pages\\Todo.razor",
               "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.Web\\Components\\Pages\\Todo.razor",
               "RelativeToolTip": "AspireAppReactApp.Web\\Components\\Pages\\Todo.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-22T05:28:20.783Z",
               "EditorCaption": ""
@@ -132,15 +128,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AspireAppReactApp.AppHost",
+              "Title": "AspireAppReactApp.AppHost.csproj",
               "DocumentMoniker": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj",
               "RelativeDocumentMoniker": "AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj",
               "ToolTip": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj",
               "RelativeToolTip": "AspireAppReactApp.AppHost\\AspireAppReactApp.AppHost.csproj",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-22T05:21:44.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T05:21:44.513Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "AspireAppReactApp.ApiService\\TodoDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T04:53:29.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T04:53:29.979Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "AspireAppReactApp.ApiService\\AspireAppReactApp.ApiService.http",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-08-22T04:51:48.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T04:51:48.655Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "AspireAppReactApp.ApiService\\TodoEndpoints.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAkwEcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T04:42:45.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T04:42:45.164Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "AspireAppReactApp.ApiService\\appsettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-22T04:41:24.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T04:41:24.112Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "AspireAppReactApp.ApiService\\Todo.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAYwAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T04:30:51.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T04:30:51.477Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "AspireAppReactApp.ApiService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T04:30:03.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T04:30:03.444Z"
             },
             {
               "$type": "Document",
@@ -230,8 +219,7 @@
               "RelativeToolTip": "AspireAppReactApp.AppHost\\AppHost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T04:26:45.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T04:26:45.628Z"
             }
           ]
         }

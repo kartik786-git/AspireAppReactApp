@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspireAppReactApp.ApiService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91dbd4bac091ab185caa1a1cf7b72636f2f17b3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspireAppReactApp.ApiService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspireAppReactApp.ApiService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

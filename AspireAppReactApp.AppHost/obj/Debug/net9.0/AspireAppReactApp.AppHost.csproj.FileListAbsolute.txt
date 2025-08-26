@@ -132,3 +132,4 @@ D:\Project\AspireAppReactApp\AspireAppReactApp.AppHost\obj\Debug\net9.0\ref\Aspi
 D:\Project\AspireAppReactApp\AspireAppReactApp.AppHost\bin\Debug\net9.0\Aspire.Hosting.NodeJs.dll
 D:\Project\AspireAppReactApp\AspireAppReactApp.AppHost\bin\Debug\net9.0\CommunityToolkit.Aspire.Hosting.NodeJS.Extensions.dll
 D:\Project\AspireAppReactApp\AspireAppReactApp.AppHost\bin\Debug\net9.0\CommunityToolkit.Aspire.Hosting.Sqlite.dll
+D:\Project\AspireAppReactApp\AspireAppReactApp.AppHost\obj\Debug\net9.0\AspireAppReactApp.AppHost.sourcelink.json

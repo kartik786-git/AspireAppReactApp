@@ -164,4 +164,4 @@ D:\Project\AspireAppReactApp\AspireAppReactApp.ApiService\bin\Debug\net9.0\runti
 D:\Project\AspireAppReactApp\AspireAppReactApp.ApiService\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\Project\AspireAppReactApp\AspireAppReactApp.ApiService\bin\Debug\net9.0\CommunityToolkit.Aspire.Microsoft.EntityFrameworkCore.Sqlite.dll
 D:\Project\AspireAppReactApp\AspireAppReactApp.ApiService\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
-D:\Project\AspireAppReactApp\AspireAppReactApp.ApiService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Project\AspireAppReactApp\AspireAppReactApp.ApiService\obj\Debug\net9.0\AspireAppReactApp.ApiService.sourcelink.json
