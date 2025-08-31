@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AXiGjssOwXk=",
+  "success": true,
+  "projectFilePath": "D:\\Project\\AspireAppReactApp\\SharedClassLibrary\\SharedClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karti\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.4\\microsoft.netcore.app.ref.9.0.4.nupkg.sha512",
+    "C:\\Users\\karti\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.4\\microsoft.windowsdesktop.app.ref.9.0.4.nupkg.sha512",
+    "C:\\Users\\karti\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.4\\microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

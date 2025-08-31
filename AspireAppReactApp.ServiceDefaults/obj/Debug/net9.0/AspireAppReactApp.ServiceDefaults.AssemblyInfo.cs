@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspireAppReactApp.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91dbd4bac091ab185caa1a1cf7b72636f2f17b3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cb65ca5f7908001c964c3b3aa60765db44eea6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspireAppReactApp.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspireAppReactApp.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

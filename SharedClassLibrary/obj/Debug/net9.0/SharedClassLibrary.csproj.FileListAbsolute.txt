@@ -1,0 +1,12 @@
+D:\Project\AspireAppReactApp\SharedClassLibrary\bin\Debug\net9.0\SharedClassLibrary.deps.json
+D:\Project\AspireAppReactApp\SharedClassLibrary\bin\Debug\net9.0\SharedClassLibrary.dll
+D:\Project\AspireAppReactApp\SharedClassLibrary\bin\Debug\net9.0\SharedClassLibrary.pdb
+D:\Project\AspireAppReactApp\SharedClassLibrary\obj\Debug\net9.0\SharedClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\AspireAppReactApp\SharedClassLibrary\obj\Debug\net9.0\SharedClassLibrary.AssemblyInfoInputs.cache
+D:\Project\AspireAppReactApp\SharedClassLibrary\obj\Debug\net9.0\SharedClassLibrary.AssemblyInfo.cs
+D:\Project\AspireAppReactApp\SharedClassLibrary\obj\Debug\net9.0\SharedClassLibrary.csproj.CoreCompileInputs.cache
+D:\Project\AspireAppReactApp\SharedClassLibrary\obj\Debug\net9.0\SharedClassLibrary.sourcelink.json
+D:\Project\AspireAppReactApp\SharedClassLibrary\obj\Debug\net9.0\SharedClassLibrary.dll
+D:\Project\AspireAppReactApp\SharedClassLibrary\obj\Debug\net9.0\refint\SharedClassLibrary.dll
+D:\Project\AspireAppReactApp\SharedClassLibrary\obj\Debug\net9.0\SharedClassLibrary.pdb
+D:\Project\AspireAppReactApp\SharedClassLibrary\obj\Debug\net9.0\ref\SharedClassLibrary.dll

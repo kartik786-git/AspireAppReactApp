@@ -3,5 +3,7 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.telemetry.abstractions\9.7.0\buildTransitive\net8.0\Microsoft.Extensions.Telemetry.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.telemetry.abstractions\9.7.0\buildTransitive\net8.0\Microsoft.Extensions.Telemetry.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.http.resilience\9.7.0\buildTransitive\net8.0\Microsoft.Extensions.Http.Resilience.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.http.resilience\9.7.0\buildTransitive\net8.0\Microsoft.Extensions.Http.Resilience.targets')" />
+    <Import Project="$(NuGetPackageRoot)aspire.azure.storage.queues\9.4.1\buildTransitive\net8.0\Aspire.Azure.Storage.Queues.targets" Condition="Exists('$(NuGetPackageRoot)aspire.azure.storage.queues\9.4.1\buildTransitive\net8.0\Aspire.Azure.Storage.Queues.targets')" />
+    <Import Project="$(NuGetPackageRoot)aspire.azure.storage.blobs\9.4.1\buildTransitive\net8.0\Aspire.Azure.Storage.Blobs.targets" Condition="Exists('$(NuGetPackageRoot)aspire.azure.storage.blobs\9.4.1\buildTransitive\net8.0\Aspire.Azure.Storage.Blobs.targets')" />
   </ImportGroup>
 </Project>

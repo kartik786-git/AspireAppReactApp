@@ -2,6 +2,39 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "Aspire.Azure.Storage.Queues/9.4.1": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Azure.Storage.Queues": "9.0.0",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Storage.Queues": "12.22.0",
+          "Microsoft.Extensions.Azure": "1.12.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.18",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "OpenTelemetry.Extensions.Hosting": "1.9.0",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/Aspire.Azure.Storage.Queues.targets": {}
+        }
+      },
       "Aspire.Dashboard.Sdk.win-x64/9.4.1": {
         "type": "package",
         "build": {
@@ -139,6 +172,302 @@
           "buildMultiTargeting/Aspire.Hosting.AppHost.targets": {}
         }
       },
+      "Aspire.Hosting.Azure/9.4.1": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Uris": "9.0.0",
+          "Aspire.Hosting": "9.4.1",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Provisioning": "1.2.1",
+          "Azure.Provisioning.KeyVault": "1.1.0",
+          "Azure.ResourceManager.Authorization": "1.1.4",
+          "Azure.ResourceManager.KeyVault": "1.3.2",
+          "Azure.ResourceManager.Resources": "1.11.0",
+          "Azure.Security.KeyVault.Secrets": "4.8.0",
+          "Google.Protobuf": "3.31.1",
+          "Grpc.AspNetCore": "2.71.0",
+          "Grpc.Net.ClientFactory": "2.71.0",
+          "Grpc.Tools": "2.72.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.3.0",
+          "KubernetesClient": "17.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.18",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Polly.Core": "8.6.2",
+          "Semver": "3.0.0",
+          "StreamJsonRpc": "2.22.11",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Hosting.Azure.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Hosting.Azure.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Aspire.Hosting.Azure.targets": {}
+        }
+      },
+      "Aspire.Hosting.Azure.AppContainers/9.4.1": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Uris": "9.0.0",
+          "Aspire.Hosting.Azure": "9.4.1",
+          "Aspire.Hosting.Azure.OperationalInsights": "9.4.1",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Provisioning": "1.2.1",
+          "Azure.Provisioning.AppContainers": "1.1.0",
+          "Azure.Provisioning.ContainerRegistry": "1.1.0",
+          "Azure.Provisioning.KeyVault": "1.1.0",
+          "Azure.Provisioning.OperationalInsights": "1.1.0",
+          "Azure.Provisioning.Storage": "1.1.2",
+          "Azure.ResourceManager.Authorization": "1.1.4",
+          "Azure.ResourceManager.KeyVault": "1.3.2",
+          "Azure.ResourceManager.Resources": "1.11.0",
+          "Azure.Security.KeyVault.Secrets": "4.8.0",
+          "Google.Protobuf": "3.31.1",
+          "Grpc.AspNetCore": "2.71.0",
+          "Grpc.Net.ClientFactory": "2.71.0",
+          "Grpc.Tools": "2.72.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.3.0",
+          "KubernetesClient": "17.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.18",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Polly.Core": "8.6.2",
+          "Semver": "3.0.0",
+          "StreamJsonRpc": "2.22.11",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Hosting.Azure.AppContainers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Hosting.Azure.AppContainers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Aspire.Hosting.Azure.Functions/9.4.0-preview.1.25378.8": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Azure.Storage.Blobs": "9.0.0",
+          "AspNetCore.HealthChecks.Azure.Storage.Queues": "9.0.0",
+          "AspNetCore.HealthChecks.Uris": "9.0.0",
+          "Aspire.Hosting.Azure": "9.4.0",
+          "Aspire.Hosting.Azure.Storage": "9.4.0",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Provisioning": "1.2.1",
+          "Azure.Provisioning.KeyVault": "1.1.0",
+          "Azure.Provisioning.Storage": "1.1.2",
+          "Azure.ResourceManager.Authorization": "1.1.4",
+          "Azure.ResourceManager.KeyVault": "1.3.2",
+          "Azure.ResourceManager.Resources": "1.11.0",
+          "Azure.Security.KeyVault.Secrets": "4.8.0",
+          "Azure.Storage.Blobs": "12.24.1",
+          "Azure.Storage.Queues": "12.22.0",
+          "Google.Protobuf": "3.31.1",
+          "Grpc.AspNetCore": "2.71.0",
+          "Grpc.Net.ClientFactory": "2.71.0",
+          "Grpc.Tools": "2.72.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.3.0",
+          "KubernetesClient": "17.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.18",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Polly.Core": "8.6.2",
+          "Semver": "3.0.0",
+          "StreamJsonRpc": "2.22.11",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Hosting.Azure.Functions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Hosting.Azure.Functions.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Aspire.Hosting.Azure.Functions.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Aspire.Hosting.Azure.OperationalInsights/9.4.1": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Uris": "9.0.0",
+          "Aspire.Hosting.Azure": "9.4.1",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Provisioning": "1.2.1",
+          "Azure.Provisioning.KeyVault": "1.1.0",
+          "Azure.Provisioning.OperationalInsights": "1.1.0",
+          "Azure.ResourceManager.Authorization": "1.1.4",
+          "Azure.ResourceManager.KeyVault": "1.3.2",
+          "Azure.ResourceManager.Resources": "1.11.0",
+          "Azure.Security.KeyVault.Secrets": "4.8.0",
+          "Google.Protobuf": "3.31.1",
+          "Grpc.AspNetCore": "2.71.0",
+          "Grpc.Net.ClientFactory": "2.71.0",
+          "Grpc.Tools": "2.72.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.3.0",
+          "KubernetesClient": "17.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.18",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Polly.Core": "8.6.2",
+          "Semver": "3.0.0",
+          "StreamJsonRpc": "2.22.11",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Hosting.Azure.OperationalInsights.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Hosting.Azure.OperationalInsights.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Aspire.Hosting.Azure.Storage/9.4.1": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Azure.Storage.Blobs": "9.0.0",
+          "AspNetCore.HealthChecks.Azure.Storage.Queues": "9.0.0",
+          "AspNetCore.HealthChecks.Uris": "9.0.0",
+          "Aspire.Hosting.Azure": "9.4.1",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Provisioning": "1.2.1",
+          "Azure.Provisioning.KeyVault": "1.1.0",
+          "Azure.Provisioning.Storage": "1.1.2",
+          "Azure.ResourceManager.Authorization": "1.1.4",
+          "Azure.ResourceManager.KeyVault": "1.3.2",
+          "Azure.ResourceManager.Resources": "1.11.0",
+          "Azure.Security.KeyVault.Secrets": "4.8.0",
+          "Azure.Storage.Blobs": "12.24.1",
+          "Azure.Storage.Queues": "12.22.0",
+          "Google.Protobuf": "3.31.1",
+          "Grpc.AspNetCore": "2.71.0",
+          "Grpc.Net.ClientFactory": "2.71.0",
+          "Grpc.Tools": "2.72.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.3.0",
+          "KubernetesClient": "17.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.18",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Polly.Core": "8.6.2",
+          "Semver": "3.0.0",
+          "StreamJsonRpc": "2.22.11",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Hosting.Azure.Storage.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Hosting.Azure.Storage.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Aspire.Hosting.NodeJs/9.4.1": {
         "type": "package",
         "dependencies": {
@@ -187,6 +516,40 @@
           "buildMultiTargeting/Aspire.Hosting.Orchestration.win-x64.targets": {}
         }
       },
+      "AspNetCore.HealthChecks.Azure.Storage.Blobs/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Blobs": "12.19.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.11"
+        },
+        "compile": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AspNetCore.HealthChecks.Azure.Storage.Queues/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Queues": "12.17.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.11"
+        },
+        "compile": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AspNetCore.HealthChecks.Uris/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -200,6 +563,277 @@
         },
         "runtime": {
           "lib/net8.0/HealthChecks.Uris.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Core/1.47.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "System.ClientModel": "1.5.0",
+          "System.Memory.Data": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Identity/1.14.2": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.1",
+          "Microsoft.Identity.Client": "4.73.1",
+          "Microsoft.Identity.Client.Extensions.Msal": "4.73.1"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Identity.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Identity.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Provisioning/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.47.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Provisioning.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Provisioning.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Provisioning.AppContainers/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.2",
+          "Azure.Provisioning": "1.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Provisioning.AppContainers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Provisioning.AppContainers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Provisioning.ContainerRegistry/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.2",
+          "Azure.Provisioning": "1.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Provisioning.ContainerRegistry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Provisioning.ContainerRegistry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Provisioning.KeyVault/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.2",
+          "Azure.Provisioning": "1.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Provisioning.KeyVault.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Provisioning.KeyVault.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Provisioning.OperationalInsights/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.2",
+          "Azure.Provisioning": "1.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Provisioning.OperationalInsights.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Provisioning.OperationalInsights.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Provisioning.Storage/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.47.0",
+          "Azure.Provisioning": "1.2.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Provisioning.Storage.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Provisioning.Storage.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.ResourceManager/1.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.44.1"
+        },
+        "compile": {
+          "lib/net8.0/Azure.ResourceManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.ResourceManager.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.ResourceManager.Authorization/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.44.1",
+          "Azure.ResourceManager": "1.13.0",
+          "System.ClientModel": "1.2.1"
+        },
+        "compile": {
+          "lib/net8.0/Azure.ResourceManager.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.ResourceManager.Authorization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.ResourceManager.KeyVault/1.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.44.1",
+          "Azure.ResourceManager": "1.13.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.ResourceManager.KeyVault.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.ResourceManager.KeyVault.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.ResourceManager.Resources/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.2",
+          "Azure.ResourceManager": "1.13.1"
+        },
+        "compile": {
+          "lib/net8.0/Azure.ResourceManager.Resources.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.ResourceManager.Resources.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Security.KeyVault.Secrets/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.2"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Security.KeyVault.Secrets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Security.KeyVault.Secrets.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Storage.Blobs/12.24.1": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Common": "12.23.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Storage.Common/12.23.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.44.1",
+          "System.IO.Hashing": "6.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Storage.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Storage.Queues/12.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Common": "12.23.0",
+          "System.Memory.Data": "6.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Queues.dll": {
             "related": ".xml"
           }
         }
@@ -487,6 +1121,43 @@
         },
         "runtime": {
           "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Azure/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.2",
+          "Azure.Identity": "1.13.1",
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Azure.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Azure.dll": {
             "related": ".xml"
           }
         }
@@ -1123,6 +1794,52 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Identity.Client/4.73.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "6.35.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Identity.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Identity.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Identity.Client.Extensions.Msal/4.73.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Identity.Client": "4.73.1",
+          "System.Security.Cryptography.ProtectedData": "4.5.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/6.35.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.NET.StringTools/17.6.3": {
         "type": "package",
         "compile": {
@@ -1277,6 +1994,71 @@
           }
         }
       },
+      "OpenTelemetry/1.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Configuration": "8.0.0",
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.9.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenTelemetry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTelemetry.Api/1.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/OpenTelemetry.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTelemetry.Api.ProviderBuilderExtensions/1.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "OpenTelemetry.Api": "1.9.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTelemetry.Extensions.Hosting/1.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "OpenTelemetry": "1.9.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenTelemetry.Extensions.Hosting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Extensions.Hosting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Polly.Core/8.6.2": {
         "type": "package",
         "compile": {
@@ -1367,6 +2149,23 @@
           }
         }
       },
+      "System.ClientModel/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "System.Memory.Data": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/System.ClientModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.ClientModel.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.EventLog/9.0.7": {
         "type": "package",
         "compile": {
@@ -1409,6 +2208,39 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Memory.Data/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "YamlDotNet/16.3.0": {
         "type": "package",
         "compile": {
@@ -1425,6 +2257,24 @@
     }
   },
   "libraries": {
+    "Aspire.Azure.Storage.Queues/9.4.1": {
+      "sha512": "3kEiwm0N2vrxjkz1C2AfRbT2Phj/KpTiWOwiWi4E7Es255uS8MvIhxZGLG6xkKmAFnoE0PaZOMIxkNyhAy96Iw==",
+      "type": "package",
+      "path": "aspire.azure.storage.queues/9.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ConfigurationSchema.json",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.azure.storage.queues.9.4.1.nupkg.sha512",
+        "aspire.azure.storage.queues.nuspec",
+        "buildTransitive/net8.0/Aspire.Azure.Storage.Queues.targets",
+        "lib/net8.0/Aspire.Azure.Storage.Queues.dll",
+        "lib/net8.0/Aspire.Azure.Storage.Queues.xml"
+      ]
+    },
     "Aspire.Dashboard.Sdk.win-x64/9.4.1": {
       "sha512": "uTjcBB9UugN6i83ZSryOFg+uYLj8O9H8kMVzPpbwANUC6Xkay8woOADfX7zdhi3LNxa2RkuT9qi9ZOJyNKC3uA==",
       "type": "package",
@@ -1606,6 +2456,100 @@
         "lib/net9.0/Aspire.Hosting.AppHost.xml"
       ]
     },
+    "Aspire.Hosting.Azure/9.4.1": {
+      "sha512": "Qio82PueSKEG/7bWveCOnblyhmlco+kj/erEsajrdfMsQVDZmedDbFg5tfNQto49Wx9Yi7xezt22YLJ5CJUrtA==",
+      "type": "package",
+      "path": "aspire.hosting.azure/9.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AspireAzureConfigurationSchema.json",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.hosting.azure.9.4.1.nupkg.sha512",
+        "aspire.hosting.azure.nuspec",
+        "buildTransitive/Aspire.Hosting.Azure.targets",
+        "lib/net8.0/Aspire.Hosting.Azure.dll",
+        "lib/net8.0/Aspire.Hosting.Azure.xml"
+      ]
+    },
+    "Aspire.Hosting.Azure.AppContainers/9.4.1": {
+      "sha512": "mgRMf7RC0GWX1kQ4YQpbrkobijEDaUg4NIasCqnFavJ9LgO+ECpW+jpHMA7G6y3W/wrE+q1F/E3Y5EEMFsk8MA==",
+      "type": "package",
+      "path": "aspire.hosting.azure.appcontainers/9.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.hosting.azure.appcontainers.9.4.1.nupkg.sha512",
+        "aspire.hosting.azure.appcontainers.nuspec",
+        "lib/net8.0/Aspire.Hosting.Azure.AppContainers.dll",
+        "lib/net8.0/Aspire.Hosting.Azure.AppContainers.xml"
+      ]
+    },
+    "Aspire.Hosting.Azure.Functions/9.4.0-preview.1.25378.8": {
+      "sha512": "xwyklcHMWFyY/hcIBQGO65zqnTwSuZ6pLh+yecXhbFjbmyg0NPwvZ6OIglK8pDYdXbrQZ+6uWbsMQzr8iC/svw==",
+      "type": "package",
+      "path": "aspire.hosting.azure.functions/9.4.0-preview.1.25378.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.hosting.azure.functions.9.4.0-preview.1.25378.8.nupkg.sha512",
+        "aspire.hosting.azure.functions.nuspec",
+        "lib/net8.0/Aspire.Hosting.Azure.Functions.dll",
+        "lib/net8.0/Aspire.Hosting.Azure.Functions.xml",
+        "lib/net8.0/cs/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/de/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/es/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/fr/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/it/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/ja/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/ko/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/pl/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/pt-BR/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/ru/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/tr/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/zh-Hans/Aspire.Hosting.Azure.Functions.resources.dll",
+        "lib/net8.0/zh-Hant/Aspire.Hosting.Azure.Functions.resources.dll"
+      ]
+    },
+    "Aspire.Hosting.Azure.OperationalInsights/9.4.1": {
+      "sha512": "XB0Ez/3ktIO+Ey37EpM1pepSKIoZ55GVgiwDRrGkHr+rzOhSyPnK/k7/XlEMjWLmc2/H+aCETOk24s81jHYxaQ==",
+      "type": "package",
+      "path": "aspire.hosting.azure.operationalinsights/9.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.hosting.azure.operationalinsights.9.4.1.nupkg.sha512",
+        "aspire.hosting.azure.operationalinsights.nuspec",
+        "lib/net8.0/Aspire.Hosting.Azure.OperationalInsights.dll",
+        "lib/net8.0/Aspire.Hosting.Azure.OperationalInsights.xml"
+      ]
+    },
+    "Aspire.Hosting.Azure.Storage/9.4.1": {
+      "sha512": "j5eRJlnFpiF+a+RBYxuxucPkY82XVw8SxAtdxjXI/m8F9n/3ZG1PsitUJhY4iIv0AfBXnJyKwLcQ0vrNeGDaDg==",
+      "type": "package",
+      "path": "aspire.hosting.azure.storage/9.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.hosting.azure.storage.9.4.1.nupkg.sha512",
+        "aspire.hosting.azure.storage.nuspec",
+        "lib/net8.0/Aspire.Hosting.Azure.Storage.dll",
+        "lib/net8.0/Aspire.Hosting.Azure.Storage.xml"
+      ]
+    },
     "Aspire.Hosting.NodeJs/9.4.1": {
       "sha512": "x5w/xDnJ+G9Dp0dtzGISccXxP/piZEpUkHQmytXdytHiDxixvjtQSHUGTaAT16SaX0Sk1CWDzllzaKGhsxefXA==",
       "type": "package",
@@ -1644,6 +2588,40 @@
         "tools/ext/dcpctrl.exe"
       ]
     },
+    "AspNetCore.HealthChecks.Azure.Storage.Blobs/9.0.0": {
+      "sha512": "fORaHfhyerL+7Tu4lTyj5CBHEMPYdH0LS1bm9N2Wd/K4mgd/zzg+iXLFBYTNTbF+hLYpVNZyO2Tx/wU0/s4KqQ==",
+      "type": "package",
+      "path": "aspnetcore.healthchecks.azure.storage.blobs/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "aspnetcore.healthchecks.azure.storage.blobs.9.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.azure.storage.blobs.nuspec",
+        "icon.png",
+        "lib/net8.0/HealthChecks.Azure.Storage.Blobs.dll",
+        "lib/net8.0/HealthChecks.Azure.Storage.Blobs.xml",
+        "lib/netstandard2.0/HealthChecks.Azure.Storage.Blobs.dll",
+        "lib/netstandard2.0/HealthChecks.Azure.Storage.Blobs.xml"
+      ]
+    },
+    "AspNetCore.HealthChecks.Azure.Storage.Queues/9.0.0": {
+      "sha512": "ne+XNpiO2yVH9g6x5B1SJBMzNz8JR0YRiBvJR9qGdpTsHtcTY8GhmA9+mznQ+nTLgUQNvEbr6Xj8Ha9zjW0QDQ==",
+      "type": "package",
+      "path": "aspnetcore.healthchecks.azure.storage.queues/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "aspnetcore.healthchecks.azure.storage.queues.9.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.azure.storage.queues.nuspec",
+        "icon.png",
+        "lib/net8.0/HealthChecks.Azure.Storage.Queues.dll",
+        "lib/net8.0/HealthChecks.Azure.Storage.Queues.xml",
+        "lib/netstandard2.0/HealthChecks.Azure.Storage.Queues.dll",
+        "lib/netstandard2.0/HealthChecks.Azure.Storage.Queues.xml"
+      ]
+    },
     "AspNetCore.HealthChecks.Uris/9.0.0": {
       "sha512": "XYdNlA437KeF8p9qOpZFyNqAN+c0FXt/JjTvzH/Qans0q0O3pPE8KPnn39ucQQjR/Roum1vLTP3kXiUs8VHyuA==",
       "type": "package",
@@ -1658,6 +2636,308 @@
         "lib/net8.0/HealthChecks.Uris.xml",
         "lib/netstandard2.0/HealthChecks.Uris.dll",
         "lib/netstandard2.0/HealthChecks.Uris.xml"
+      ]
+    },
+    "Azure.Core/1.47.0": {
+      "sha512": "Da6VYrs9qNylfNSURJrytAk4EzBlBv1U62JVww+62CeD+qscD0iK0j5SM1PXhxXylAhH5kx7BuR0yrtmzFmBvA==",
+      "type": "package",
+      "path": "azure.core/1.47.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.core.1.47.0.nupkg.sha512",
+        "azure.core.nuspec",
+        "azureicon.png",
+        "lib/net462/Azure.Core.dll",
+        "lib/net462/Azure.Core.xml",
+        "lib/net472/Azure.Core.dll",
+        "lib/net472/Azure.Core.xml",
+        "lib/net8.0/Azure.Core.dll",
+        "lib/net8.0/Azure.Core.xml",
+        "lib/netstandard2.0/Azure.Core.dll",
+        "lib/netstandard2.0/Azure.Core.xml"
+      ]
+    },
+    "Azure.Identity/1.14.2": {
+      "sha512": "YhNMwOTwT+I2wIcJKSdP0ADyB2aK+JaYWZxO8LSRDm5w77LFr0ykR9xmt2ZV5T1gaI7xU6iNFIh/yW1dAlpddQ==",
+      "type": "package",
+      "path": "azure.identity/1.14.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.identity.1.14.2.nupkg.sha512",
+        "azure.identity.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.Identity.dll",
+        "lib/net8.0/Azure.Identity.xml",
+        "lib/netstandard2.0/Azure.Identity.dll",
+        "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Azure.Provisioning/1.2.1": {
+      "sha512": "h+pwW/FIbF3ijAIg6w5BrZxh/buWK4gCow9pZKMcRul8He5l1pELKFUZjso7ejEaftwEnHN91UClds2Gxi1h9g==",
+      "type": "package",
+      "path": "azure.provisioning/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.provisioning.1.2.1.nupkg.sha512",
+        "azure.provisioning.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.Provisioning.dll",
+        "lib/net8.0/Azure.Provisioning.xml",
+        "lib/netstandard2.0/Azure.Provisioning.dll",
+        "lib/netstandard2.0/Azure.Provisioning.xml"
+      ]
+    },
+    "Azure.Provisioning.AppContainers/1.1.0": {
+      "sha512": "yLB+IDJ4zGyOyFkc+qVgsKsGjemGYygtp2z2JcnJG7GifQCVw/wSuQGy7sDW5gzOg9WqhkEgZSCxCohRK6j1Lw==",
+      "type": "package",
+      "path": "azure.provisioning.appcontainers/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.provisioning.appcontainers.1.1.0.nupkg.sha512",
+        "azure.provisioning.appcontainers.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.Provisioning.AppContainers.dll",
+        "lib/net8.0/Azure.Provisioning.AppContainers.xml",
+        "lib/netstandard2.0/Azure.Provisioning.AppContainers.dll",
+        "lib/netstandard2.0/Azure.Provisioning.AppContainers.xml"
+      ]
+    },
+    "Azure.Provisioning.ContainerRegistry/1.1.0": {
+      "sha512": "NgpzBt8Ly7r/8v4ndk7r4KBaa5N6fs+qpAHRLikigx65EDpT5f0lb1GoI+6MsygOCehOwweq98yTcYmSPG6OOg==",
+      "type": "package",
+      "path": "azure.provisioning.containerregistry/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.provisioning.containerregistry.1.1.0.nupkg.sha512",
+        "azure.provisioning.containerregistry.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.Provisioning.ContainerRegistry.dll",
+        "lib/net8.0/Azure.Provisioning.ContainerRegistry.xml",
+        "lib/netstandard2.0/Azure.Provisioning.ContainerRegistry.dll",
+        "lib/netstandard2.0/Azure.Provisioning.ContainerRegistry.xml"
+      ]
+    },
+    "Azure.Provisioning.KeyVault/1.1.0": {
+      "sha512": "n8SCJONrEU3w9lq/ZiQkxZ0L+Sv6RL2M95LSVYnwlYe84ww6jpo/djlfd835dh5cQvVrHgETi3UnRUcZn89J0w==",
+      "type": "package",
+      "path": "azure.provisioning.keyvault/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.provisioning.keyvault.1.1.0.nupkg.sha512",
+        "azure.provisioning.keyvault.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.Provisioning.KeyVault.dll",
+        "lib/net8.0/Azure.Provisioning.KeyVault.xml",
+        "lib/netstandard2.0/Azure.Provisioning.KeyVault.dll",
+        "lib/netstandard2.0/Azure.Provisioning.KeyVault.xml"
+      ]
+    },
+    "Azure.Provisioning.OperationalInsights/1.1.0": {
+      "sha512": "2VzPvdGmVjHrRPKD2wrLlZVb2mJRiQqMV2kkTJPrDiZ/ijKr7VNOihhIvGJ6C6NWW398i49Y2wR05vDl3Mvt6w==",
+      "type": "package",
+      "path": "azure.provisioning.operationalinsights/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.provisioning.operationalinsights.1.1.0.nupkg.sha512",
+        "azure.provisioning.operationalinsights.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.Provisioning.OperationalInsights.dll",
+        "lib/net8.0/Azure.Provisioning.OperationalInsights.xml",
+        "lib/netstandard2.0/Azure.Provisioning.OperationalInsights.dll",
+        "lib/netstandard2.0/Azure.Provisioning.OperationalInsights.xml"
+      ]
+    },
+    "Azure.Provisioning.Storage/1.1.2": {
+      "sha512": "LiTtCCxVQrXPrvbZczd+Efo9qhPlTkL/xdvz+U2HNRU9EmEy4DryomInNMvqdLa0RgHHAybqckrJAr4rjclnRg==",
+      "type": "package",
+      "path": "azure.provisioning.storage/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.provisioning.storage.1.1.2.nupkg.sha512",
+        "azure.provisioning.storage.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.Provisioning.Storage.dll",
+        "lib/net8.0/Azure.Provisioning.Storage.xml",
+        "lib/netstandard2.0/Azure.Provisioning.Storage.dll",
+        "lib/netstandard2.0/Azure.Provisioning.Storage.xml"
+      ]
+    },
+    "Azure.ResourceManager/1.13.1": {
+      "sha512": "kpsl5R6HkBS6jpxKoqeM8y5JjjYxv0bmVOHijjO098vpyK20nMYZdceFO4/4wHEMDybAjm4HGu1uxhjD/c5Rhw==",
+      "type": "package",
+      "path": "azure.resourcemanager/1.13.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.resourcemanager.1.13.1.nupkg.sha512",
+        "azure.resourcemanager.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.ResourceManager.dll",
+        "lib/net8.0/Azure.ResourceManager.xml",
+        "lib/netstandard2.0/Azure.ResourceManager.dll",
+        "lib/netstandard2.0/Azure.ResourceManager.xml"
+      ]
+    },
+    "Azure.ResourceManager.Authorization/1.1.4": {
+      "sha512": "AFUFFdKJ/tYuXp+kXIqyD6jaUy22h0g8GWAkZa4e3/X+hnXndj6hxqIrlt/p+jflHB8SFPnBkxSN5QFadP4bRw==",
+      "type": "package",
+      "path": "azure.resourcemanager.authorization/1.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.resourcemanager.authorization.1.1.4.nupkg.sha512",
+        "azure.resourcemanager.authorization.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.ResourceManager.Authorization.dll",
+        "lib/net8.0/Azure.ResourceManager.Authorization.xml",
+        "lib/netstandard2.0/Azure.ResourceManager.Authorization.dll",
+        "lib/netstandard2.0/Azure.ResourceManager.Authorization.xml"
+      ]
+    },
+    "Azure.ResourceManager.KeyVault/1.3.2": {
+      "sha512": "hA1jiJXyUmyiUjM1RJ6D8e2mL2K2+mHjizuIw1l6K7ujueoYa49AYNoGUAVK4SSKM5OIxTGQWz2TtYaR4PJl3A==",
+      "type": "package",
+      "path": "azure.resourcemanager.keyvault/1.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.resourcemanager.keyvault.1.3.2.nupkg.sha512",
+        "azure.resourcemanager.keyvault.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.ResourceManager.KeyVault.dll",
+        "lib/net8.0/Azure.ResourceManager.KeyVault.xml",
+        "lib/netstandard2.0/Azure.ResourceManager.KeyVault.dll",
+        "lib/netstandard2.0/Azure.ResourceManager.KeyVault.xml"
+      ]
+    },
+    "Azure.ResourceManager.Resources/1.11.0": {
+      "sha512": "XYA83A/88/bnSt7HWMECJU03hPgcQvIMWu5wyMUIPWk8TjEHvNaKNATeOI2EJ0xyQmbNiJ7Nzjfat37PNw2GLg==",
+      "type": "package",
+      "path": "azure.resourcemanager.resources/1.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.resourcemanager.resources.1.11.0.nupkg.sha512",
+        "azure.resourcemanager.resources.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.ResourceManager.Resources.dll",
+        "lib/net8.0/Azure.ResourceManager.Resources.xml",
+        "lib/netstandard2.0/Azure.ResourceManager.Resources.dll",
+        "lib/netstandard2.0/Azure.ResourceManager.Resources.xml"
+      ]
+    },
+    "Azure.Security.KeyVault.Secrets/4.8.0": {
+      "sha512": "tmcIgo+de2K5+PTBRNlnFLQFbmSoyuT9RpDr5MwKS6mIfNxLPQpARkRAP91r3tmeiJ9j/UCO0F+hTlk1Bk7HNQ==",
+      "type": "package",
+      "path": "azure.security.keyvault.secrets/4.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.security.keyvault.secrets.4.8.0.nupkg.sha512",
+        "azure.security.keyvault.secrets.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.Security.KeyVault.Secrets.dll",
+        "lib/net8.0/Azure.Security.KeyVault.Secrets.xml",
+        "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll",
+        "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.xml"
+      ]
+    },
+    "Azure.Storage.Blobs/12.24.1": {
+      "sha512": "479Z9ps9yl9XyhU45bbU2CU4e2B23S6FJiSiL9LpfZHU6eNXXD9Jb6rYdwY+qqmm852RhqICXBpX3Sql4DLBew==",
+      "type": "package",
+      "path": "azure.storage.blobs/12.24.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.blobs.12.24.1.nupkg.sha512",
+        "azure.storage.blobs.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Blobs.dll",
+        "lib/net6.0/Azure.Storage.Blobs.xml",
+        "lib/net8.0/Azure.Storage.Blobs.dll",
+        "lib/net8.0/Azure.Storage.Blobs.xml",
+        "lib/netstandard2.0/Azure.Storage.Blobs.dll",
+        "lib/netstandard2.0/Azure.Storage.Blobs.xml",
+        "lib/netstandard2.1/Azure.Storage.Blobs.dll",
+        "lib/netstandard2.1/Azure.Storage.Blobs.xml"
+      ]
+    },
+    "Azure.Storage.Common/12.23.0": {
+      "sha512": "X/pe1LS3lC6s6MSL7A6FzRfnB6P72rNBt5oSuyan6Q4Jxr+KiN9Ufwqo32YLHOVfPcB8ESZZ4rBDketn+J37Rw==",
+      "type": "package",
+      "path": "azure.storage.common/12.23.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.common.12.23.0.nupkg.sha512",
+        "azure.storage.common.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Common.dll",
+        "lib/net6.0/Azure.Storage.Common.xml",
+        "lib/net8.0/Azure.Storage.Common.dll",
+        "lib/net8.0/Azure.Storage.Common.xml",
+        "lib/netstandard2.0/Azure.Storage.Common.dll",
+        "lib/netstandard2.0/Azure.Storage.Common.xml"
+      ]
+    },
+    "Azure.Storage.Queues/12.22.0": {
+      "sha512": "HPQgOlfH+rJ4CL4V8ePFnsT/KKnvLU35ytxC3fsTTqOazhQ0593C0aPVu258DRN8bQCbx4OpNpjtiO9czDy3VQ==",
+      "type": "package",
+      "path": "azure.storage.queues/12.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.queues.12.22.0.nupkg.sha512",
+        "azure.storage.queues.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Queues.dll",
+        "lib/net6.0/Azure.Storage.Queues.xml",
+        "lib/net8.0/Azure.Storage.Queues.dll",
+        "lib/net8.0/Azure.Storage.Queues.xml",
+        "lib/netstandard2.0/Azure.Storage.Queues.dll",
+        "lib/netstandard2.0/Azure.Storage.Queues.xml",
+        "lib/netstandard2.1/Azure.Storage.Queues.dll",
+        "lib/netstandard2.1/Azure.Storage.Queues.xml"
       ]
     },
     "CommunityToolkit.Aspire.Hosting.NodeJS.Extensions/9.7.1-beta.348": {
@@ -2082,6 +3362,48 @@
         "lib/netstandard2.0/MessagePack.Annotations.xml",
         "messagepack.annotations.2.5.192.nupkg.sha512",
         "messagepack.annotations.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+      "sha512": "3WA9q9yVqJp222P3x1wYIGDAkpjAku0TMUaaQV22g6L67AI0LdOIrVS7Ht2vJfLHGSPVuqN94vIr15qn+HEkHw==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Bcl.AsyncInterfaces.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Azure/1.12.0": {
+      "sha512": "3sIvazPesPdEn5t2yT+pwVWKm1LyN/LB31Wh52giRNf2ckcKmaxW2KOA5uNZHSaqABhMDPAYGMeGBFQreZ7uUg==",
+      "type": "package",
+      "path": "microsoft.extensions.azure/1.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azureicon.png",
+        "lib/net8.0/Microsoft.Extensions.Azure.dll",
+        "lib/net8.0/Microsoft.Extensions.Azure.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Azure.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Azure.xml",
+        "microsoft.extensions.azure.1.12.0.nupkg.sha512",
+        "microsoft.extensions.azure.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration/9.0.7": {
@@ -2988,6 +4310,70 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Identity.Client/4.73.1": {
+      "sha512": "NnDLS8QwYqO5ZZecL2oioi1LUqjh5Ewk4bMLzbgiXJbQmZhDLtKwLxL3DpGMlQAJ2G4KgEnvGPKa+OOgffeJbw==",
+      "type": "package",
+      "path": "microsoft.identity.client/4.73.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Microsoft.Identity.Client.dll",
+        "lib/net462/Microsoft.Identity.Client.xml",
+        "lib/net472/Microsoft.Identity.Client.dll",
+        "lib/net472/Microsoft.Identity.Client.xml",
+        "lib/net8.0-android34.0/Microsoft.Identity.Client.aar",
+        "lib/net8.0-android34.0/Microsoft.Identity.Client.dll",
+        "lib/net8.0-android34.0/Microsoft.Identity.Client.xml",
+        "lib/net8.0-ios18.0/Microsoft.Identity.Client.dll",
+        "lib/net8.0-ios18.0/Microsoft.Identity.Client.xml",
+        "lib/net8.0/Microsoft.Identity.Client.dll",
+        "lib/net8.0/Microsoft.Identity.Client.xml",
+        "lib/netstandard2.0/Microsoft.Identity.Client.dll",
+        "lib/netstandard2.0/Microsoft.Identity.Client.xml",
+        "microsoft.identity.client.4.73.1.nupkg.sha512",
+        "microsoft.identity.client.nuspec"
+      ]
+    },
+    "Microsoft.Identity.Client.Extensions.Msal/4.73.1": {
+      "sha512": "xDztAiV2F0wI0W8FLKv5cbaBefyLD6JVaAsvgSN7bjWNCzGYzHbcOEIP5s4TJXUpQzMfUyBsFl1mC6Zmgpz0PQ==",
+      "type": "package",
+      "path": "microsoft.identity.client.extensions.msal/4.73.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll",
+        "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.xml",
+        "lib/netstandard2.0/Microsoft.Identity.Client.Extensions.Msal.dll",
+        "lib/netstandard2.0/Microsoft.Identity.Client.Extensions.Msal.xml",
+        "microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512",
+        "microsoft.identity.client.extensions.msal.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Abstractions/6.35.0": {
+      "sha512": "xuR8E4Rd96M41CnUSCiOJ2DBh+z+zQSmyrYHdYhD6K4fXBcQGVnRCFQ0efROUYpP+p0zC1BLKr0JRpVuujTZSg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.abstractions/6.35.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net45/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.xml",
+        "microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+        "microsoft.identitymodel.abstractions.nuspec"
+      ]
+    },
     "Microsoft.NET.StringTools/17.6.3": {
       "sha512": "N0ZIanl1QCgvUumEL1laasU0a7sOE5ZwLZVTn0pAePnfhq8P7SvTjF8Axq+CnavuQkmdQpGNXQ1efZtu5kDFbA==",
       "type": "package",
@@ -3187,6 +4573,96 @@
         "packageIcon.png"
       ]
     },
+    "OpenTelemetry/1.9.0": {
+      "sha512": "7scS6BUhwYeSXEDGhCxMSezmvyCoDU5kFQbmfyW9iVvVTcWhec+1KIN33/LOCdBXRkzt2y7+g03mkdAB0XZ9Fw==",
+      "type": "package",
+      "path": "opentelemetry/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/OpenTelemetry.dll",
+        "lib/net462/OpenTelemetry.xml",
+        "lib/net6.0/OpenTelemetry.dll",
+        "lib/net6.0/OpenTelemetry.xml",
+        "lib/net8.0/OpenTelemetry.dll",
+        "lib/net8.0/OpenTelemetry.xml",
+        "lib/netstandard2.0/OpenTelemetry.dll",
+        "lib/netstandard2.0/OpenTelemetry.xml",
+        "lib/netstandard2.1/OpenTelemetry.dll",
+        "lib/netstandard2.1/OpenTelemetry.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.1.9.0.nupkg.sha512",
+        "opentelemetry.nuspec"
+      ]
+    },
+    "OpenTelemetry.Api/1.9.0": {
+      "sha512": "Xz8ZvM1Lm0m7BbtGBnw2JlPo++YKyMp08zMK5p0mf+cIi5jeMt2+QsYu9X6YEAbjCxBQYwEak5Z8sY6Ig2WcwQ==",
+      "type": "package",
+      "path": "opentelemetry.api/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/OpenTelemetry.Api.dll",
+        "lib/net462/OpenTelemetry.Api.xml",
+        "lib/net6.0/OpenTelemetry.Api.dll",
+        "lib/net6.0/OpenTelemetry.Api.xml",
+        "lib/net8.0/OpenTelemetry.Api.dll",
+        "lib/net8.0/OpenTelemetry.Api.xml",
+        "lib/netstandard2.0/OpenTelemetry.Api.dll",
+        "lib/netstandard2.0/OpenTelemetry.Api.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.api.1.9.0.nupkg.sha512",
+        "opentelemetry.api.nuspec"
+      ]
+    },
+    "OpenTelemetry.Api.ProviderBuilderExtensions/1.9.0": {
+      "sha512": "L0D4LBR5JFmwLun5MCWVGapsJLV0ANZ+XXu9NEI3JE/HRKkRuUO+J2MuHD5DBwiU//QMYYM4B22oev1hVLoHDQ==",
+      "type": "package",
+      "path": "opentelemetry.api.providerbuilderextensions/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
+        "lib/net462/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
+        "lib/net6.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
+        "lib/net6.0/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
+        "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
+        "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
+        "lib/netstandard2.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
+        "lib/netstandard2.0/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.api.providerbuilderextensions.1.9.0.nupkg.sha512",
+        "opentelemetry.api.providerbuilderextensions.nuspec"
+      ]
+    },
+    "OpenTelemetry.Extensions.Hosting/1.9.0": {
+      "sha512": "QBQPrKDVCXxTBE+r8tgjmFNKKHi4sKyczmip2XGUcjy8kk3quUNhttnjiMqC4sU50Hemmn4i5752Co26pnKe3A==",
+      "type": "package",
+      "path": "opentelemetry.extensions.hosting/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/OpenTelemetry.Extensions.Hosting.dll",
+        "lib/net462/OpenTelemetry.Extensions.Hosting.xml",
+        "lib/net6.0/OpenTelemetry.Extensions.Hosting.dll",
+        "lib/net6.0/OpenTelemetry.Extensions.Hosting.xml",
+        "lib/net8.0/OpenTelemetry.Extensions.Hosting.dll",
+        "lib/net8.0/OpenTelemetry.Extensions.Hosting.xml",
+        "lib/netstandard2.0/OpenTelemetry.Extensions.Hosting.dll",
+        "lib/netstandard2.0/OpenTelemetry.Extensions.Hosting.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.extensions.hosting.1.9.0.nupkg.sha512",
+        "opentelemetry.extensions.hosting.nuspec"
+      ]
+    },
     "Polly.Core/8.6.2": {
       "sha512": "ImAKLH6qVDjj0vzw+QxMYxxT/NhQrHK+sZE4GT5JbIfDBOrMDbE4we3BR6SqUQCJuKdjOKf3smUjxIgOUUfNVw==",
       "type": "package",
@@ -3295,6 +4771,25 @@
         "streamjsonrpc.nuspec"
       ]
     },
+    "System.ClientModel/1.5.0": {
+      "sha512": "nyQUynSbLh8IVyETF2tN14IQwBYgif3gIBt2LAL3FSl0W5FIEJIog3sposTxdz23EqDN78LAQFpUxbaj1EsRJw==",
+      "type": "package",
+      "path": "system.clientmodel/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "DotNetPackageIcon.png",
+        "README.md",
+        "analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll",
+        "lib/net8.0/System.ClientModel.dll",
+        "lib/net8.0/System.ClientModel.xml",
+        "lib/netstandard2.0/System.ClientModel.dll",
+        "lib/netstandard2.0/System.ClientModel.xml",
+        "system.clientmodel.1.5.0.nupkg.sha512",
+        "system.clientmodel.nuspec"
+      ]
+    },
     "System.Diagnostics.EventLog/9.0.7": {
       "sha512": "AJ+9fyCtQUImntxAJ9l4PZiCd4iepuk4pm7Qcno7PBIWQnfXlvwKuFsGk2H+QyY69GUVzDP2heELW6ho5BCXUg==",
       "type": "package",
@@ -3357,6 +4852,77 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Memory.Data/8.0.1": {
+      "sha512": "BVYuec3jV23EMRDeR7Dr1/qhx7369dZzJ9IWy2xylvb4YfXsrUxspWc4UWYid/tj4zZK58uGZqn2WQiaDMhmAg==",
+      "type": "package",
+      "path": "system.memory.data/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Memory.Data.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Memory.Data.targets",
+        "lib/net462/System.Memory.Data.dll",
+        "lib/net462/System.Memory.Data.xml",
+        "lib/net6.0/System.Memory.Data.dll",
+        "lib/net6.0/System.Memory.Data.xml",
+        "lib/net7.0/System.Memory.Data.dll",
+        "lib/net7.0/System.Memory.Data.xml",
+        "lib/net8.0/System.Memory.Data.dll",
+        "lib/net8.0/System.Memory.Data.xml",
+        "lib/netstandard2.0/System.Memory.Data.dll",
+        "lib/netstandard2.0/System.Memory.Data.xml",
+        "system.memory.data.8.0.1.nupkg.sha512",
+        "system.memory.data.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "sha512": "wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "YamlDotNet/16.3.0": {
       "sha512": "SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
       "type": "package",
@@ -3383,8 +4949,12 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Aspire.Azure.Storage.Queues >= 9.4.1",
       "Aspire.Dashboard.Sdk.win-x64 >= 9.4.1",
       "Aspire.Hosting.AppHost >= 9.4.1",
+      "Aspire.Hosting.Azure.AppContainers >= 9.4.1",
+      "Aspire.Hosting.Azure.Functions > 9.4.0-* <= 9.5.0",
+      "Aspire.Hosting.Azure.Storage >= 9.4.1",
       "Aspire.Hosting.NodeJs >= 9.4.1",
       "Aspire.Hosting.Orchestration.win-x64 >= 9.4.1",
       "CommunityToolkit.Aspire.Hosting.NodeJS.Extensions >= 9.7.1-beta.348",
@@ -3442,12 +5012,28 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "Aspire.Azure.Storage.Queues": {
+            "target": "Package",
+            "version": "[9.4.1, )"
+          },
           "Aspire.Dashboard.Sdk.win-x64": {
             "target": "Package",
             "version": "[9.4.1, )",
             "autoReferenced": true
           },
           "Aspire.Hosting.AppHost": {
+            "target": "Package",
+            "version": "[9.4.1, )"
+          },
+          "Aspire.Hosting.Azure.AppContainers": {
+            "target": "Package",
+            "version": "[9.4.1, )"
+          },
+          "Aspire.Hosting.Azure.Functions": {
+            "target": "Package",
+            "version": "(9.4.0-*, 9.5.0]"
+          },
+          "Aspire.Hosting.Azure.Storage": {
             "target": "Package",
             "version": "[9.4.1, )"
           },

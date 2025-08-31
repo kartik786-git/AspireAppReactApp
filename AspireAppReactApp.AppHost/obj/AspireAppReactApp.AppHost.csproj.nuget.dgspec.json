@@ -51,12 +51,28 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Aspire.Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[9.4.1, )"
+            },
             "Aspire.Dashboard.Sdk.win-x64": {
               "target": "Package",
               "version": "[9.4.1, )",
               "autoReferenced": true
             },
             "Aspire.Hosting.AppHost": {
+              "target": "Package",
+              "version": "[9.4.1, )"
+            },
+            "Aspire.Hosting.Azure.AppContainers": {
+              "target": "Package",
+              "version": "[9.4.1, )"
+            },
+            "Aspire.Hosting.Azure.Functions": {
+              "target": "Package",
+              "version": "(9.4.0-*, 9.5.0]"
+            },
+            "Aspire.Hosting.Azure.Storage": {
               "target": "Package",
               "version": "[9.4.1, )"
             },

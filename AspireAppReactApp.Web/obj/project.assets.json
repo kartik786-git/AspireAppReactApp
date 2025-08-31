@@ -2,6 +2,187 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "Aspire.Azure.Storage.Blobs/9.4.1": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Azure.Storage.Blobs": "9.0.0",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Storage.Blobs": "12.24.1",
+          "Microsoft.Extensions.Azure": "1.12.0",
+          "OpenTelemetry.Extensions.Hosting": "1.9.0",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/Aspire.Azure.Storage.Blobs.targets": {}
+        }
+      },
+      "Aspire.Azure.Storage.Queues/9.4.1": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Azure.Storage.Queues": "9.0.0",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Storage.Queues": "12.22.0",
+          "Microsoft.Extensions.Azure": "1.12.0",
+          "OpenTelemetry.Extensions.Hosting": "1.9.0",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/Aspire.Azure.Storage.Queues.targets": {}
+        }
+      },
+      "AspNetCore.HealthChecks.Azure.Storage.Blobs/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Blobs": "12.19.1"
+        },
+        "compile": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AspNetCore.HealthChecks.Azure.Storage.Queues/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Queues": "12.17.1"
+        },
+        "compile": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Core/1.47.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "System.ClientModel": "1.5.0",
+          "System.Memory.Data": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Identity/1.14.2": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.1",
+          "Microsoft.Identity.Client": "4.73.1",
+          "Microsoft.Identity.Client.Extensions.Msal": "4.73.1"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Identity.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Identity.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Storage.Blobs/12.24.1": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Common": "12.23.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Storage.Common/12.23.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.44.1",
+          "System.IO.Hashing": "6.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Storage.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Storage.Queues/12.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Common": "12.23.0",
+          "System.Memory.Data": "6.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.AmbientMetadata.Application/9.7.0": {
         "type": "package",
         "compile": {
@@ -16,6 +197,23 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Azure/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.46.2",
+          "Azure.Identity": "1.13.1"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Azure.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Azure.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Compliance.Abstractions/9.7.0": {
@@ -195,6 +393,52 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Telemetry.Abstractions.targets": {}
         }
       },
+      "Microsoft.Identity.Client/4.73.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "6.35.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Identity.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Identity.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Identity.Client.Extensions.Msal/4.73.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Identity.Client": "4.73.1",
+          "System.Security.Cryptography.ProtectedData": "4.5.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/6.35.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "OpenTelemetry/1.12.0": {
         "type": "package",
         "dependencies": {
@@ -368,6 +612,71 @@
           }
         }
       },
+      "System.ClientModel/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory.Data": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/System.ClientModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.ClientModel.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.IO.Hashing/9.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Memory.Data/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "AspireAppReactApp.ServiceDefaults/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -389,10 +698,218 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "SharedClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SharedClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedClassLibrary.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Aspire.Azure.Storage.Blobs/9.4.1": {
+      "sha512": "2oi5yzQc3uludgZjoWe1RXW9mkaJvSwDSe51rzwlEt6LRa6nl6bxhrqFoulML2b5NjSsgmmt2p2xUczFsVssJg==",
+      "type": "package",
+      "path": "aspire.azure.storage.blobs/9.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ConfigurationSchema.json",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.azure.storage.blobs.9.4.1.nupkg.sha512",
+        "aspire.azure.storage.blobs.nuspec",
+        "buildTransitive/net8.0/Aspire.Azure.Storage.Blobs.targets",
+        "lib/net8.0/Aspire.Azure.Storage.Blobs.dll",
+        "lib/net8.0/Aspire.Azure.Storage.Blobs.xml"
+      ]
+    },
+    "Aspire.Azure.Storage.Queues/9.4.1": {
+      "sha512": "3kEiwm0N2vrxjkz1C2AfRbT2Phj/KpTiWOwiWi4E7Es255uS8MvIhxZGLG6xkKmAFnoE0PaZOMIxkNyhAy96Iw==",
+      "type": "package",
+      "path": "aspire.azure.storage.queues/9.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ConfigurationSchema.json",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.azure.storage.queues.9.4.1.nupkg.sha512",
+        "aspire.azure.storage.queues.nuspec",
+        "buildTransitive/net8.0/Aspire.Azure.Storage.Queues.targets",
+        "lib/net8.0/Aspire.Azure.Storage.Queues.dll",
+        "lib/net8.0/Aspire.Azure.Storage.Queues.xml"
+      ]
+    },
+    "AspNetCore.HealthChecks.Azure.Storage.Blobs/9.0.0": {
+      "sha512": "fORaHfhyerL+7Tu4lTyj5CBHEMPYdH0LS1bm9N2Wd/K4mgd/zzg+iXLFBYTNTbF+hLYpVNZyO2Tx/wU0/s4KqQ==",
+      "type": "package",
+      "path": "aspnetcore.healthchecks.azure.storage.blobs/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "aspnetcore.healthchecks.azure.storage.blobs.9.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.azure.storage.blobs.nuspec",
+        "icon.png",
+        "lib/net8.0/HealthChecks.Azure.Storage.Blobs.dll",
+        "lib/net8.0/HealthChecks.Azure.Storage.Blobs.xml",
+        "lib/netstandard2.0/HealthChecks.Azure.Storage.Blobs.dll",
+        "lib/netstandard2.0/HealthChecks.Azure.Storage.Blobs.xml"
+      ]
+    },
+    "AspNetCore.HealthChecks.Azure.Storage.Queues/9.0.0": {
+      "sha512": "ne+XNpiO2yVH9g6x5B1SJBMzNz8JR0YRiBvJR9qGdpTsHtcTY8GhmA9+mznQ+nTLgUQNvEbr6Xj8Ha9zjW0QDQ==",
+      "type": "package",
+      "path": "aspnetcore.healthchecks.azure.storage.queues/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "aspnetcore.healthchecks.azure.storage.queues.9.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.azure.storage.queues.nuspec",
+        "icon.png",
+        "lib/net8.0/HealthChecks.Azure.Storage.Queues.dll",
+        "lib/net8.0/HealthChecks.Azure.Storage.Queues.xml",
+        "lib/netstandard2.0/HealthChecks.Azure.Storage.Queues.dll",
+        "lib/netstandard2.0/HealthChecks.Azure.Storage.Queues.xml"
+      ]
+    },
+    "Azure.Core/1.47.0": {
+      "sha512": "Da6VYrs9qNylfNSURJrytAk4EzBlBv1U62JVww+62CeD+qscD0iK0j5SM1PXhxXylAhH5kx7BuR0yrtmzFmBvA==",
+      "type": "package",
+      "path": "azure.core/1.47.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.core.1.47.0.nupkg.sha512",
+        "azure.core.nuspec",
+        "azureicon.png",
+        "lib/net462/Azure.Core.dll",
+        "lib/net462/Azure.Core.xml",
+        "lib/net472/Azure.Core.dll",
+        "lib/net472/Azure.Core.xml",
+        "lib/net8.0/Azure.Core.dll",
+        "lib/net8.0/Azure.Core.xml",
+        "lib/netstandard2.0/Azure.Core.dll",
+        "lib/netstandard2.0/Azure.Core.xml"
+      ]
+    },
+    "Azure.Identity/1.14.2": {
+      "sha512": "YhNMwOTwT+I2wIcJKSdP0ADyB2aK+JaYWZxO8LSRDm5w77LFr0ykR9xmt2ZV5T1gaI7xU6iNFIh/yW1dAlpddQ==",
+      "type": "package",
+      "path": "azure.identity/1.14.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.identity.1.14.2.nupkg.sha512",
+        "azure.identity.nuspec",
+        "azureicon.png",
+        "lib/net8.0/Azure.Identity.dll",
+        "lib/net8.0/Azure.Identity.xml",
+        "lib/netstandard2.0/Azure.Identity.dll",
+        "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Azure.Storage.Blobs/12.24.1": {
+      "sha512": "479Z9ps9yl9XyhU45bbU2CU4e2B23S6FJiSiL9LpfZHU6eNXXD9Jb6rYdwY+qqmm852RhqICXBpX3Sql4DLBew==",
+      "type": "package",
+      "path": "azure.storage.blobs/12.24.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.blobs.12.24.1.nupkg.sha512",
+        "azure.storage.blobs.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Blobs.dll",
+        "lib/net6.0/Azure.Storage.Blobs.xml",
+        "lib/net8.0/Azure.Storage.Blobs.dll",
+        "lib/net8.0/Azure.Storage.Blobs.xml",
+        "lib/netstandard2.0/Azure.Storage.Blobs.dll",
+        "lib/netstandard2.0/Azure.Storage.Blobs.xml",
+        "lib/netstandard2.1/Azure.Storage.Blobs.dll",
+        "lib/netstandard2.1/Azure.Storage.Blobs.xml"
+      ]
+    },
+    "Azure.Storage.Common/12.23.0": {
+      "sha512": "X/pe1LS3lC6s6MSL7A6FzRfnB6P72rNBt5oSuyan6Q4Jxr+KiN9Ufwqo32YLHOVfPcB8ESZZ4rBDketn+J37Rw==",
+      "type": "package",
+      "path": "azure.storage.common/12.23.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.common.12.23.0.nupkg.sha512",
+        "azure.storage.common.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Common.dll",
+        "lib/net6.0/Azure.Storage.Common.xml",
+        "lib/net8.0/Azure.Storage.Common.dll",
+        "lib/net8.0/Azure.Storage.Common.xml",
+        "lib/netstandard2.0/Azure.Storage.Common.dll",
+        "lib/netstandard2.0/Azure.Storage.Common.xml"
+      ]
+    },
+    "Azure.Storage.Queues/12.22.0": {
+      "sha512": "HPQgOlfH+rJ4CL4V8ePFnsT/KKnvLU35ytxC3fsTTqOazhQ0593C0aPVu258DRN8bQCbx4OpNpjtiO9czDy3VQ==",
+      "type": "package",
+      "path": "azure.storage.queues/12.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.queues.12.22.0.nupkg.sha512",
+        "azure.storage.queues.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Queues.dll",
+        "lib/net6.0/Azure.Storage.Queues.xml",
+        "lib/net8.0/Azure.Storage.Queues.dll",
+        "lib/net8.0/Azure.Storage.Queues.xml",
+        "lib/netstandard2.0/Azure.Storage.Queues.dll",
+        "lib/netstandard2.0/Azure.Storage.Queues.xml",
+        "lib/netstandard2.1/Azure.Storage.Queues.dll",
+        "lib/netstandard2.1/Azure.Storage.Queues.xml"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+      "sha512": "3WA9q9yVqJp222P3x1wYIGDAkpjAku0TMUaaQV22g6L67AI0LdOIrVS7Ht2vJfLHGSPVuqN94vIr15qn+HEkHw==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Bcl.AsyncInterfaces.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.AmbientMetadata.Application/9.7.0": {
       "sha512": "tgQEjZlMoDvy7xatRBYtVCWrnSFpQOqkfcxx4vwou0AWmjVvdNAqjXM/YYcM3Lcj8OP302xPpQ4X/aklqkfs+A==",
       "type": "package",
@@ -412,6 +929,24 @@
         "lib/net9.0/Microsoft.Extensions.AmbientMetadata.Application.xml",
         "microsoft.extensions.ambientmetadata.application.9.7.0.nupkg.sha512",
         "microsoft.extensions.ambientmetadata.application.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Azure/1.12.0": {
+      "sha512": "3sIvazPesPdEn5t2yT+pwVWKm1LyN/LB31Wh52giRNf2ckcKmaxW2KOA5uNZHSaqABhMDPAYGMeGBFQreZ7uUg==",
+      "type": "package",
+      "path": "microsoft.extensions.azure/1.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azureicon.png",
+        "lib/net8.0/Microsoft.Extensions.Azure.dll",
+        "lib/net8.0/Microsoft.Extensions.Azure.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Azure.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Azure.xml",
+        "microsoft.extensions.azure.1.12.0.nupkg.sha512",
+        "microsoft.extensions.azure.nuspec"
       ]
     },
     "Microsoft.Extensions.Compliance.Abstractions/9.7.0": {
@@ -616,6 +1151,70 @@
         "lib/net9.0/Microsoft.Extensions.Telemetry.Abstractions.xml",
         "microsoft.extensions.telemetry.abstractions.9.7.0.nupkg.sha512",
         "microsoft.extensions.telemetry.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Identity.Client/4.73.1": {
+      "sha512": "NnDLS8QwYqO5ZZecL2oioi1LUqjh5Ewk4bMLzbgiXJbQmZhDLtKwLxL3DpGMlQAJ2G4KgEnvGPKa+OOgffeJbw==",
+      "type": "package",
+      "path": "microsoft.identity.client/4.73.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Microsoft.Identity.Client.dll",
+        "lib/net462/Microsoft.Identity.Client.xml",
+        "lib/net472/Microsoft.Identity.Client.dll",
+        "lib/net472/Microsoft.Identity.Client.xml",
+        "lib/net8.0-android34.0/Microsoft.Identity.Client.aar",
+        "lib/net8.0-android34.0/Microsoft.Identity.Client.dll",
+        "lib/net8.0-android34.0/Microsoft.Identity.Client.xml",
+        "lib/net8.0-ios18.0/Microsoft.Identity.Client.dll",
+        "lib/net8.0-ios18.0/Microsoft.Identity.Client.xml",
+        "lib/net8.0/Microsoft.Identity.Client.dll",
+        "lib/net8.0/Microsoft.Identity.Client.xml",
+        "lib/netstandard2.0/Microsoft.Identity.Client.dll",
+        "lib/netstandard2.0/Microsoft.Identity.Client.xml",
+        "microsoft.identity.client.4.73.1.nupkg.sha512",
+        "microsoft.identity.client.nuspec"
+      ]
+    },
+    "Microsoft.Identity.Client.Extensions.Msal/4.73.1": {
+      "sha512": "xDztAiV2F0wI0W8FLKv5cbaBefyLD6JVaAsvgSN7bjWNCzGYzHbcOEIP5s4TJXUpQzMfUyBsFl1mC6Zmgpz0PQ==",
+      "type": "package",
+      "path": "microsoft.identity.client.extensions.msal/4.73.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll",
+        "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.xml",
+        "lib/netstandard2.0/Microsoft.Identity.Client.Extensions.Msal.dll",
+        "lib/netstandard2.0/Microsoft.Identity.Client.Extensions.Msal.xml",
+        "microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512",
+        "microsoft.identity.client.extensions.msal.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Abstractions/6.35.0": {
+      "sha512": "xuR8E4Rd96M41CnUSCiOJ2DBh+z+zQSmyrYHdYhD6K4fXBcQGVnRCFQ0efROUYpP+p0zC1BLKr0JRpVuujTZSg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.abstractions/6.35.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net45/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.xml",
+        "microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+        "microsoft.identitymodel.abstractions.nuspec"
       ]
     },
     "OpenTelemetry/1.12.0": {
@@ -920,15 +1519,141 @@
         "polly.ratelimiting.nuspec"
       ]
     },
+    "System.ClientModel/1.5.0": {
+      "sha512": "nyQUynSbLh8IVyETF2tN14IQwBYgif3gIBt2LAL3FSl0W5FIEJIog3sposTxdz23EqDN78LAQFpUxbaj1EsRJw==",
+      "type": "package",
+      "path": "system.clientmodel/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "DotNetPackageIcon.png",
+        "README.md",
+        "analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll",
+        "lib/net8.0/System.ClientModel.dll",
+        "lib/net8.0/System.ClientModel.xml",
+        "lib/netstandard2.0/System.ClientModel.dll",
+        "lib/netstandard2.0/System.ClientModel.xml",
+        "system.clientmodel.1.5.0.nupkg.sha512",
+        "system.clientmodel.nuspec"
+      ]
+    },
+    "System.IO.Hashing/9.0.7": {
+      "sha512": "2sMrwd/AHYipeiOwYcoqD99c4U8F2x7GalonEYxkHUvTLNzE9Pxx2lz8ygS9cOqyDsruYARZAYL5pPVFh/s3lw==",
+      "type": "package",
+      "path": "system.io.hashing/9.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Hashing.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Hashing.targets",
+        "lib/net462/System.IO.Hashing.dll",
+        "lib/net462/System.IO.Hashing.xml",
+        "lib/net8.0/System.IO.Hashing.dll",
+        "lib/net8.0/System.IO.Hashing.xml",
+        "lib/net9.0/System.IO.Hashing.dll",
+        "lib/net9.0/System.IO.Hashing.xml",
+        "lib/netstandard2.0/System.IO.Hashing.dll",
+        "lib/netstandard2.0/System.IO.Hashing.xml",
+        "system.io.hashing.9.0.7.nupkg.sha512",
+        "system.io.hashing.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Memory.Data/8.0.1": {
+      "sha512": "BVYuec3jV23EMRDeR7Dr1/qhx7369dZzJ9IWy2xylvb4YfXsrUxspWc4UWYid/tj4zZK58uGZqn2WQiaDMhmAg==",
+      "type": "package",
+      "path": "system.memory.data/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Memory.Data.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Memory.Data.targets",
+        "lib/net462/System.Memory.Data.dll",
+        "lib/net462/System.Memory.Data.xml",
+        "lib/net6.0/System.Memory.Data.dll",
+        "lib/net6.0/System.Memory.Data.xml",
+        "lib/net7.0/System.Memory.Data.dll",
+        "lib/net7.0/System.Memory.Data.xml",
+        "lib/net8.0/System.Memory.Data.dll",
+        "lib/net8.0/System.Memory.Data.xml",
+        "lib/netstandard2.0/System.Memory.Data.dll",
+        "lib/netstandard2.0/System.Memory.Data.xml",
+        "system.memory.data.8.0.1.nupkg.sha512",
+        "system.memory.data.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "sha512": "wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "AspireAppReactApp.ServiceDefaults/1.0.0": {
       "type": "project",
       "path": "../AspireAppReactApp.ServiceDefaults/AspireAppReactApp.ServiceDefaults.csproj",
       "msbuildProject": "../AspireAppReactApp.ServiceDefaults/AspireAppReactApp.ServiceDefaults.csproj"
+    },
+    "SharedClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedClassLibrary/SharedClassLibrary.csproj",
+      "msbuildProject": "../SharedClassLibrary/SharedClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "AspireAppReactApp.ServiceDefaults >= 1.0.0"
+      "Aspire.Azure.Storage.Blobs >= 9.4.1",
+      "Aspire.Azure.Storage.Queues >= 9.4.1",
+      "AspireAppReactApp.ServiceDefaults >= 1.0.0",
+      "SharedClassLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -966,6 +1691,9 @@
           "projectReferences": {
             "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ServiceDefaults\\AspireAppReactApp.ServiceDefaults.csproj": {
               "projectPath": "D:\\Project\\AspireAppReactApp\\AspireAppReactApp.ServiceDefaults\\AspireAppReactApp.ServiceDefaults.csproj"
+            },
+            "D:\\Project\\AspireAppReactApp\\SharedClassLibrary\\SharedClassLibrary.csproj": {
+              "projectPath": "D:\\Project\\AspireAppReactApp\\SharedClassLibrary\\SharedClassLibrary.csproj"
             }
           }
         }
@@ -985,6 +1713,16 @@
     "frameworks": {
       "net9.0": {
         "targetAlias": "net9.0",
+        "dependencies": {
+          "Aspire.Azure.Storage.Blobs": {
+            "target": "Package",
+            "version": "[9.4.1, )"
+          },
+          "Aspire.Azure.Storage.Queues": {
+            "target": "Package",
+            "version": "[9.4.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

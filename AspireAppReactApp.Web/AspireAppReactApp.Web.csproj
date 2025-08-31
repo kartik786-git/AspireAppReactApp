@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aspire.Azure.Storage.Blobs" Version="9.4.1" />
+    <PackageReference Include="Aspire.Azure.Storage.Queues" Version="9.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AspireAppReactApp.ServiceDefaults\AspireAppReactApp.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\SharedClassLibrary\SharedClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>

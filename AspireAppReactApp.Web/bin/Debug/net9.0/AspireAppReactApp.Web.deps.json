@@ -8,10 +8,138 @@
     ".NETCoreApp,Version=v9.0": {
       "AspireAppReactApp.Web/1.0.0": {
         "dependencies": {
-          "AspireAppReactApp.ServiceDefaults": "1.0.0"
+          "Aspire.Azure.Storage.Blobs": "9.4.1",
+          "Aspire.Azure.Storage.Queues": "9.4.1",
+          "AspireAppReactApp.ServiceDefaults": "1.0.0",
+          "SharedClassLibrary": "1.0.0"
         },
         "runtime": {
           "AspireAppReactApp.Web.dll": {}
+        }
+      },
+      "Aspire.Azure.Storage.Blobs/9.4.1": {
+        "dependencies": {
+          "AspNetCore.HealthChecks.Azure.Storage.Blobs": "9.0.0",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Storage.Blobs": "12.24.1",
+          "Microsoft.Extensions.Azure": "1.12.0",
+          "OpenTelemetry.Extensions.Hosting": "1.12.0",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Azure.Storage.Blobs.dll": {
+            "assemblyVersion": "9.4.1.0",
+            "fileVersion": "9.400.125.40804"
+          }
+        }
+      },
+      "Aspire.Azure.Storage.Queues/9.4.1": {
+        "dependencies": {
+          "AspNetCore.HealthChecks.Azure.Storage.Queues": "9.0.0",
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2",
+          "Azure.Storage.Queues": "12.22.0",
+          "Microsoft.Extensions.Azure": "1.12.0",
+          "OpenTelemetry.Extensions.Hosting": "1.12.0",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Azure.Storage.Queues.dll": {
+            "assemblyVersion": "9.4.1.0",
+            "fileVersion": "9.400.125.40804"
+          }
+        }
+      },
+      "AspNetCore.HealthChecks.Azure.Storage.Blobs/9.0.0": {
+        "dependencies": {
+          "Azure.Storage.Blobs": "12.24.1"
+        },
+        "runtime": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Blobs.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "AspNetCore.HealthChecks.Azure.Storage.Queues/9.0.0": {
+        "dependencies": {
+          "Azure.Storage.Queues": "12.22.0"
+        },
+        "runtime": {
+          "lib/net8.0/HealthChecks.Azure.Storage.Queues.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "Azure.Core/1.47.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "System.ClientModel": "1.5.0",
+          "System.Memory.Data": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Core.dll": {
+            "assemblyVersion": "1.47.0.0",
+            "fileVersion": "1.4700.25.35905"
+          }
+        }
+      },
+      "Azure.Identity/1.14.2": {
+        "dependencies": {
+          "Azure.Core": "1.47.0",
+          "Microsoft.Identity.Client": "4.73.1",
+          "Microsoft.Identity.Client.Extensions.Msal": "4.73.1"
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Identity.dll": {
+            "assemblyVersion": "1.14.2.0",
+            "fileVersion": "1.1400.225.36004"
+          }
+        }
+      },
+      "Azure.Storage.Blobs/12.24.1": {
+        "dependencies": {
+          "Azure.Storage.Common": "12.23.0"
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Blobs.dll": {
+            "assemblyVersion": "12.24.1.0",
+            "fileVersion": "12.2400.125.31006"
+          }
+        }
+      },
+      "Azure.Storage.Common/12.23.0": {
+        "dependencies": {
+          "Azure.Core": "1.47.0",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Common.dll": {
+            "assemblyVersion": "12.23.0.0",
+            "fileVersion": "12.2300.25.16105"
+          }
+        }
+      },
+      "Azure.Storage.Queues/12.22.0": {
+        "dependencies": {
+          "Azure.Storage.Common": "12.23.0",
+          "System.Memory.Data": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Storage.Queues.dll": {
+            "assemblyVersion": "12.22.0.0",
+            "fileVersion": "12.2200.25.16105"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
         }
       },
       "Microsoft.Extensions.AmbientMetadata.Application/9.7.0": {
@@ -19,6 +147,18 @@
           "lib/net9.0/Microsoft.Extensions.AmbientMetadata.Application.dll": {
             "assemblyVersion": "9.7.0.0",
             "fileVersion": "9.700.25.35602"
+          }
+        }
+      },
+      "Microsoft.Extensions.Azure/1.12.0": {
+        "dependencies": {
+          "Azure.Core": "1.47.0",
+          "Azure.Identity": "1.14.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Azure.dll": {
+            "assemblyVersion": "1.12.0.0",
+            "fileVersion": "1.1200.25.31204"
           }
         }
       },
@@ -124,6 +264,37 @@
           "lib/net9.0/Microsoft.Extensions.Telemetry.Abstractions.dll": {
             "assemblyVersion": "9.7.0.0",
             "fileVersion": "9.700.25.35602"
+          }
+        }
+      },
+      "Microsoft.Identity.Client/4.73.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "6.35.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Identity.Client.dll": {
+            "assemblyVersion": "4.73.1.0",
+            "fileVersion": "4.73.1.0"
+          }
+        }
+      },
+      "Microsoft.Identity.Client.Extensions.Msal/4.73.1": {
+        "dependencies": {
+          "Microsoft.Identity.Client": "4.73.1",
+          "System.Security.Cryptography.ProtectedData": "4.5.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll": {
+            "assemblyVersion": "4.73.1.0",
+            "fileVersion": "4.73.1.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/6.35.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "6.35.0.0",
+            "fileVersion": "6.35.0.41201"
           }
         }
       },
@@ -242,6 +413,49 @@
           }
         }
       },
+      "System.ClientModel/1.5.0": {
+        "dependencies": {
+          "System.Memory.Data": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/System.ClientModel.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.500.25.35707"
+          }
+        }
+      },
+      "System.IO.Hashing/9.0.7": {
+        "runtime": {
+          "lib/net9.0/System.IO.Hashing.dll": {
+            "assemblyVersion": "9.0.0.7",
+            "fileVersion": "9.0.725.31616"
+          }
+        }
+      },
+      "System.Memory.Data/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.Memory.Data.dll": {
+            "assemblyVersion": "8.0.0.1",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
       "AspireAppReactApp.ServiceDefaults/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Http.Resilience": "9.7.0",
@@ -258,6 +472,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "SharedClassLibrary/1.0.0": {
+        "runtime": {
+          "SharedClassLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -267,12 +489,89 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Aspire.Azure.Storage.Blobs/9.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2oi5yzQc3uludgZjoWe1RXW9mkaJvSwDSe51rzwlEt6LRa6nl6bxhrqFoulML2b5NjSsgmmt2p2xUczFsVssJg==",
+      "path": "aspire.azure.storage.blobs/9.4.1",
+      "hashPath": "aspire.azure.storage.blobs.9.4.1.nupkg.sha512"
+    },
+    "Aspire.Azure.Storage.Queues/9.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3kEiwm0N2vrxjkz1C2AfRbT2Phj/KpTiWOwiWi4E7Es255uS8MvIhxZGLG6xkKmAFnoE0PaZOMIxkNyhAy96Iw==",
+      "path": "aspire.azure.storage.queues/9.4.1",
+      "hashPath": "aspire.azure.storage.queues.9.4.1.nupkg.sha512"
+    },
+    "AspNetCore.HealthChecks.Azure.Storage.Blobs/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fORaHfhyerL+7Tu4lTyj5CBHEMPYdH0LS1bm9N2Wd/K4mgd/zzg+iXLFBYTNTbF+hLYpVNZyO2Tx/wU0/s4KqQ==",
+      "path": "aspnetcore.healthchecks.azure.storage.blobs/9.0.0",
+      "hashPath": "aspnetcore.healthchecks.azure.storage.blobs.9.0.0.nupkg.sha512"
+    },
+    "AspNetCore.HealthChecks.Azure.Storage.Queues/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ne+XNpiO2yVH9g6x5B1SJBMzNz8JR0YRiBvJR9qGdpTsHtcTY8GhmA9+mznQ+nTLgUQNvEbr6Xj8Ha9zjW0QDQ==",
+      "path": "aspnetcore.healthchecks.azure.storage.queues/9.0.0",
+      "hashPath": "aspnetcore.healthchecks.azure.storage.queues.9.0.0.nupkg.sha512"
+    },
+    "Azure.Core/1.47.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Da6VYrs9qNylfNSURJrytAk4EzBlBv1U62JVww+62CeD+qscD0iK0j5SM1PXhxXylAhH5kx7BuR0yrtmzFmBvA==",
+      "path": "azure.core/1.47.0",
+      "hashPath": "azure.core.1.47.0.nupkg.sha512"
+    },
+    "Azure.Identity/1.14.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhNMwOTwT+I2wIcJKSdP0ADyB2aK+JaYWZxO8LSRDm5w77LFr0ykR9xmt2ZV5T1gaI7xU6iNFIh/yW1dAlpddQ==",
+      "path": "azure.identity/1.14.2",
+      "hashPath": "azure.identity.1.14.2.nupkg.sha512"
+    },
+    "Azure.Storage.Blobs/12.24.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-479Z9ps9yl9XyhU45bbU2CU4e2B23S6FJiSiL9LpfZHU6eNXXD9Jb6rYdwY+qqmm852RhqICXBpX3Sql4DLBew==",
+      "path": "azure.storage.blobs/12.24.1",
+      "hashPath": "azure.storage.blobs.12.24.1.nupkg.sha512"
+    },
+    "Azure.Storage.Common/12.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X/pe1LS3lC6s6MSL7A6FzRfnB6P72rNBt5oSuyan6Q4Jxr+KiN9Ufwqo32YLHOVfPcB8ESZZ4rBDketn+J37Rw==",
+      "path": "azure.storage.common/12.23.0",
+      "hashPath": "azure.storage.common.12.23.0.nupkg.sha512"
+    },
+    "Azure.Storage.Queues/12.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HPQgOlfH+rJ4CL4V8ePFnsT/KKnvLU35ytxC3fsTTqOazhQ0593C0aPVu258DRN8bQCbx4OpNpjtiO9czDy3VQ==",
+      "path": "azure.storage.queues/12.22.0",
+      "hashPath": "azure.storage.queues.12.22.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3WA9q9yVqJp222P3x1wYIGDAkpjAku0TMUaaQV22g6L67AI0LdOIrVS7Ht2vJfLHGSPVuqN94vIr15qn+HEkHw==",
+      "path": "microsoft.bcl.asyncinterfaces/8.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.AmbientMetadata.Application/9.7.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-tgQEjZlMoDvy7xatRBYtVCWrnSFpQOqkfcxx4vwou0AWmjVvdNAqjXM/YYcM3Lcj8OP302xPpQ4X/aklqkfs+A==",
       "path": "microsoft.extensions.ambientmetadata.application/9.7.0",
       "hashPath": "microsoft.extensions.ambientmetadata.application.9.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Azure/1.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3sIvazPesPdEn5t2yT+pwVWKm1LyN/LB31Wh52giRNf2ckcKmaxW2KOA5uNZHSaqABhMDPAYGMeGBFQreZ7uUg==",
+      "path": "microsoft.extensions.azure/1.12.0",
+      "hashPath": "microsoft.extensions.azure.1.12.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Compliance.Abstractions/9.7.0": {
       "type": "package",
@@ -343,6 +642,27 @@
       "sha512": "sha512-PgzFKLbv4ciRuRNJddHPp4UZ4Yh12WOSX2aNsVpNlSp9EsZKsSjatcx90x+xAJo8jChiPxTIkLnKWjl5fC5Lig==",
       "path": "microsoft.extensions.telemetry.abstractions/9.7.0",
       "hashPath": "microsoft.extensions.telemetry.abstractions.9.7.0.nupkg.sha512"
+    },
+    "Microsoft.Identity.Client/4.73.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NnDLS8QwYqO5ZZecL2oioi1LUqjh5Ewk4bMLzbgiXJbQmZhDLtKwLxL3DpGMlQAJ2G4KgEnvGPKa+OOgffeJbw==",
+      "path": "microsoft.identity.client/4.73.1",
+      "hashPath": "microsoft.identity.client.4.73.1.nupkg.sha512"
+    },
+    "Microsoft.Identity.Client.Extensions.Msal/4.73.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xDztAiV2F0wI0W8FLKv5cbaBefyLD6JVaAsvgSN7bjWNCzGYzHbcOEIP5s4TJXUpQzMfUyBsFl1mC6Zmgpz0PQ==",
+      "path": "microsoft.identity.client.extensions.msal/4.73.1",
+      "hashPath": "microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/6.35.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xuR8E4Rd96M41CnUSCiOJ2DBh+z+zQSmyrYHdYhD6K4fXBcQGVnRCFQ0efROUYpP+p0zC1BLKr0JRpVuujTZSg==",
+      "path": "microsoft.identitymodel.abstractions/6.35.0",
+      "hashPath": "microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512"
     },
     "OpenTelemetry/1.12.0": {
       "type": "package",
@@ -421,7 +741,40 @@
       "path": "polly.ratelimiting/8.4.2",
       "hashPath": "polly.ratelimiting.8.4.2.nupkg.sha512"
     },
+    "System.ClientModel/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nyQUynSbLh8IVyETF2tN14IQwBYgif3gIBt2LAL3FSl0W5FIEJIog3sposTxdz23EqDN78LAQFpUxbaj1EsRJw==",
+      "path": "system.clientmodel/1.5.0",
+      "hashPath": "system.clientmodel.1.5.0.nupkg.sha512"
+    },
+    "System.IO.Hashing/9.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2sMrwd/AHYipeiOwYcoqD99c4U8F2x7GalonEYxkHUvTLNzE9Pxx2lz8ygS9cOqyDsruYARZAYL5pPVFh/s3lw==",
+      "path": "system.io.hashing/9.0.7",
+      "hashPath": "system.io.hashing.9.0.7.nupkg.sha512"
+    },
+    "System.Memory.Data/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BVYuec3jV23EMRDeR7Dr1/qhx7369dZzJ9IWy2xylvb4YfXsrUxspWc4UWYid/tj4zZK58uGZqn2WQiaDMhmAg==",
+      "path": "system.memory.data/8.0.1",
+      "hashPath": "system.memory.data.8.0.1.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
     "AspireAppReactApp.ServiceDefaults/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharedClassLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

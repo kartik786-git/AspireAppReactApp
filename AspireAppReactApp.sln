@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAppReactApp.AppHost", "AspireAppReactApp.AppHost\AspireAppReactApp.AppHost.csproj", "{16F4CFB2-8C8C-4FCF-9E60-F35F5138BC38}"
 EndProject
@@ -9,6 +9,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAppReactApp.ApiService", "AspireAppReactApp.ApiService\AspireAppReactApp.ApiService.csproj", "{A7DAAB8D-C263-18C3-C109-733220D15AE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAppReactApp.Web", "AspireAppReactApp.Web\AspireAppReactApp.Web.csproj", "{B489183F-F378-7E3A-1145-83DB59DD2C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp", "FunctionApp\FunctionApp.csproj", "{F395AC0F-06F0-3117-D0B5-3D72F3C1B925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedClassLibrary", "SharedClassLibrary\SharedClassLibrary.csproj", "{CAC40B20-0FE1-4710-91D4-87DFD6858589}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +36,14 @@ Global
 		{B489183F-F378-7E3A-1145-83DB59DD2C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B489183F-F378-7E3A-1145-83DB59DD2C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B489183F-F378-7E3A-1145-83DB59DD2C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F395AC0F-06F0-3117-D0B5-3D72F3C1B925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F395AC0F-06F0-3117-D0B5-3D72F3C1B925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F395AC0F-06F0-3117-D0B5-3D72F3C1B925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F395AC0F-06F0-3117-D0B5-3D72F3C1B925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC40B20-0FE1-4710-91D4-87DFD6858589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC40B20-0FE1-4710-91D4-87DFD6858589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC40B20-0FE1-4710-91D4-87DFD6858589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC40B20-0FE1-4710-91D4-87DFD6858589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
